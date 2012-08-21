@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = ven. 17 août 2012 10:31:26 CEST
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = sam. 18 août 2012 20:33:05 CEST
 
 BeginCmp
 TimeStamp = /502AB6A2;
@@ -183,6 +183,13 @@ IdModule  = CMS-6;
 EndCmp
 
 BeginCmp
+TimeStamp = /502FC400;
+Reference = IC6;
+ValeurCmp = TLP290;
+IdModule  = SMD-4;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F8BFB04;
 Reference = KU1A1;
 ValeurCmp = CONN_3;
@@ -243,6 +250,13 @@ TimeStamp = /4F808ED6;
 Reference = P2;
 ValeurCmp = CONN_2;
 IdModule  = Molex_39531-0003;
+EndCmp
+
+BeginCmp
+TimeStamp = /502FC40D;
+Reference = P3;
+ValeurCmp = CONN_2;
+IdModule  = MOL_CONN_2_VH;
 EndCmp
 
 BeginCmp
@@ -466,6 +480,41 @@ BeginCmp
 TimeStamp = /502BFC8A;
 Reference = R25;
 ValeurCmp = 10KR;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /502FC419;
+Reference = R26;
+ValeurCmp = 100KR;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /502FC413;
+Reference = R27;
+ValeurCmp = 100KR;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /502FC41F;
+Reference = R28;
+ValeurCmp = 100KR;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /502FC425;
+Reference = R29;
+ValeurCmp = 100KR;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /502FC6AC;
+Reference = R30;
+ValeurCmp = 1KR;
 IdModule  = SM1206;
 EndCmp
 

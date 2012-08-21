@@ -1,6 +1,6 @@
-update=ven. 17 août 2012 10:00:57 CEST
+update=sam. 18 août 2012 18:47:05 CEST
 version=1
-last_client=cvpcb
+last_client=pcbnew
 [general]
 version=1
 [eeschema]
@@ -45,12 +45,17 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=4DIM_4IN_I2C.net
-PadDrlX=0
-PadDimH=620
-PadDimV=900
+PadDrlX=400
+PadDimH=700
+PadDimV=700
 BoardThickness=620
 TxtPcbV=500
 TxtPcbH=500
@@ -63,6 +68,7 @@ EdgeLar=100
 TxtLar=100
 MSegLar=100
 [pcbnew/libraries]
+LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -83,9 +89,4 @@ LibName17=components/CMS-6
 LibName18=components/Fuseholder_ThroughHole_RevD_24Feb2011
 LibName19=components/Molex_39531-0003
 LibName20=components/inductances
-LibDir=
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName21=components/SOP4

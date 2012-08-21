@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date ven. 17 août 2012 10:03:27 CEST
+EESchema Schematic File Version 2  date sam. 18 août 2012 18:40:52 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "16 Digital Inputs Multiplexied Board"
-Date "17 aug 2012"
+Date "18 aug 2012"
 Rev "draft"
 Comp "XPLDUINO project"
 Comment1 ""
@@ -1445,4 +1445,120 @@ Text Label 14050 1650 1    60   ~ 0
 HT02
 Text Label 13350 2050 0    60   ~ 0
 HT03
+$Comp
+L TLP290 IC6
+U 1 1 502FC400
+P 12500 9600
+F 0 "IC6" H 12287 9778 40  0000 C CNN
+F 1 "P620" H 12649 9416 40  0000 C CNN
+F 2 "SOP4" H 12336 9426 29  0000 C CNN
+	1    12500 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P3
+U 1 1 502FC40D
+P 11150 9600
+F 0 "P3" V 11100 9600 40  0000 C CNN
+F 1 "CONN_2" V 11200 9600 40  0000 C CNN
+	1    11150 9600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R27
+U 1 1 502FC413
+P 11900 9500
+F 0 "R27" V 11980 9500 50  0000 C CNN
+F 1 "100KR" V 11900 9500 50  0000 C CNN
+	1    11900 9500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R26
+U 1 1 502FC419
+P 11900 9350
+F 0 "R26" V 11980 9350 50  0000 C CNN
+F 1 "100KR" V 11900 9350 50  0000 C CNN
+	1    11900 9350
+	0    1    1    0   
+$EndComp
+$Comp
+L R R28
+U 1 1 502FC41F
+P 11900 9700
+F 0 "R28" V 11980 9700 50  0000 C CNN
+F 1 "100KR" V 11900 9700 50  0000 C CNN
+	1    11900 9700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R29
+U 1 1 502FC425
+P 11900 9850
+F 0 "R29" V 11980 9850 50  0000 C CNN
+F 1 "100KR" V 11900 9850 50  0000 C CNN
+	1    11900 9850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11650 9500 11650 9350
+Wire Wire Line
+	12150 9350 12150 9500
+Wire Wire Line
+	12150 9850 12150 9700
+Wire Wire Line
+	11650 9850 11650 9700
+$Comp
+L R R30
+U 1 1 502FC6AC
+P 13100 9250
+F 0 "R30" V 13000 9250 50  0000 C CNN
+F 1 "3KR" V 13100 9250 50  0000 C CNN
+	1    13100 9250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12850 9500 13450 9500
+Wire Wire Line
+	12850 9700 13100 9700
+Wire Wire Line
+	13100 9700 13100 9850
+$Comp
+L DGND #PWR041
+U 1 1 502FC913
+P 13100 9850
+F 0 "#PWR041" H 13100 9850 40  0001 C CNN
+F 1 "DGND" H 13100 9780 40  0000 C CNN
+	1    13100 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR042
+U 1 1 502FC919
+P 13100 9000
+F 0 "#PWR042" H 13100 9090 20  0001 C CNN
+F 1 "+5V" H 13100 9090 30  0000 C CNN
+	1    13100 9000
+	1    0    0    -1  
+$EndComp
+Text Label 13450 9500 0    60   ~ 0
+ZCD
+Wire Notes Line
+	10900 8750 10900 10150
+Wire Notes Line
+	10900 10150 14000 10150
+Wire Notes Line
+	14000 10150 14000 8750
+Wire Notes Line
+	14000 8750 10900 8750
+Text Notes 11050 8950 0    60   ~ 0
+ZERO CROSS DETECTION
+Wire Wire Line
+	11500 9500 11650 9500
+Wire Wire Line
+	11650 9700 11500 9700
+Text Label 11650 9350 2    60   ~ 0
+PHASE
+Text Label 11650 9850 2    60   ~ 0
+NEUTRAL
 $EndSCHEMATC
