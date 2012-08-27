@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = mer. 22 août 2012 22:01:58 CEST
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = jeu. 23 août 2012 21:44:25 CEST
 
 BeginCmp
 TimeStamp = /502AB6A2;
@@ -102,28 +102,28 @@ BeginCmp
 TimeStamp = /502CD738;
 Reference = F1;
 ValeurCmp = FUSE;
-IdModule  = Fuseholder5x20_horiz_open_inline_Type-I_RevC_Date24Feb2011;
+IdModule  = Fuseholder5x20_horiz_SemiClosed_Casing10x25mm_RevA_Date25Jul2010;
 EndCmp
 
 BeginCmp
 TimeStamp = /502CD8AC;
 Reference = F2;
 ValeurCmp = FUSE;
-IdModule  = Fuseholder5x20_horiz_open_inline_Type-I_RevC_Date24Feb2011;
+IdModule  = Fuseholder5x20_horiz_SemiClosed_Casing10x25mm_RevA_Date25Jul2010;
 EndCmp
 
 BeginCmp
 TimeStamp = /502CD8B2;
 Reference = F3;
 ValeurCmp = FUSE;
-IdModule  = Fuseholder5x20_horiz_open_inline_Type-I_RevC_Date24Feb2011;
+IdModule  = Fuseholder5x20_horiz_SemiClosed_Casing10x25mm_RevA_Date25Jul2010;
 EndCmp
 
 BeginCmp
 TimeStamp = /502CD8B8;
 Reference = F4;
 ValeurCmp = FUSE;
-IdModule  = Fuseholder5x20_horiz_open_inline_Type-I_RevC_Date24Feb2011;
+IdModule  = Fuseholder5x20_horiz_SemiClosed_Casing10x25mm_RevA_Date25Jul2010;
 EndCmp
 
 BeginCmp
