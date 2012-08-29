@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 09/08/2012 22:13:26
+EESchema Schematic File Version 2  date mer. 29 août 2012 13:03:19 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -41,11 +41,11 @@ LIBS:ALPS_SWITCHS
 LIBS:SMB-cache
 EELAYER 25  0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title ""
-Date "9 aug 2012"
+Date "29 aug 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -93,7 +93,7 @@ Wire Wire Line
 Wire Wire Line
 	6850 1750 6900 1750
 Wire Wire Line
-	6550 3400 7500 3400
+	6550 3400 7800 3400
 Wire Notes Line
 	10950 1400 10950 6150
 Wire Notes Line
@@ -143,7 +143,7 @@ Wire Wire Line
 Wire Wire Line
 	10150 4000 10150 4150
 Wire Wire Line
-	7100 2700 7100 2750
+	7400 2700 7400 2750
 Wire Notes Line
 	9300 2400 10950 2400
 Wire Wire Line
@@ -183,9 +183,9 @@ Wire Wire Line
 	6600 3900 6550 3900
 Wire Notes Line
 	9300 6150 10950 6150
-Connection ~ 7400 3400
+Connection ~ 7700 3400
 Wire Wire Line
-	7400 3350 7400 3400
+	7700 3350 7700 3400
 Wire Wire Line
 	6600 5100 6550 5100
 Wire Wire Line
@@ -242,7 +242,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 4900 6550 4900
 Wire Wire Line
-	7400 2800 7400 2850
+	7700 2800 7700 2850
 Wire Wire Line
 	6600 4000 6550 4000
 Wire Wire Line
@@ -291,8 +291,8 @@ Wire Wire Line
 Wire Wire Line
 	9950 3050 10050 3050
 Wire Wire Line
-	7100 3250 7100 3300
-Connection ~ 7100 3300
+	7400 3250 7400 3300
+Connection ~ 7400 3300
 Wire Wire Line
 	9900 4050 9900 3950
 Wire Wire Line
@@ -339,7 +339,7 @@ Wire Wire Line
 Wire Wire Line
 	10450 1900 10500 1900
 Wire Wire Line
-	6550 3300 7150 3300
+	6550 3300 7450 3300
 Wire Wire Line
 	7700 1750 7750 1750
 Wire Wire Line
@@ -552,7 +552,6 @@ F 1 "GND" H 8500 4080 30  0001 C CNN
 	1    8500 4150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8900 4000
 $Comp
 L CONN_6 P102
 U 1 1 50158246
@@ -584,7 +583,6 @@ F 1 "R" V 9800 4400 50  0000 C CNN
 	1    9800 4400
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 10550 4000
 $Comp
 L +5V #PWR08
 U 1 1 500C6B5D
@@ -615,23 +613,23 @@ $EndComp
 $Comp
 L +5V #PWR010
 U 1 1 4FF09080
-P 7100 2700
-F 0 "#PWR010" H 7100 2790 20  0001 C CNN
-F 1 "+5V" H 7100 2790 30  0000 C CNN
-	1    7100 2700
+P 7400 2700
+F 0 "#PWR010" H 7400 2790 20  0001 C CNN
+F 1 "+5V" H 7400 2790 30  0000 C CNN
+	1    7400 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R103
 U 1 1 4FF09065
-P 7100 3000
-F 0 "R103" V 7180 3000 50  0000 C CNN
-F 1 "10k" V 7100 3000 50  0000 C CNN
-F 2 "SM0603" V 7200 3000 50  0000 C CNN
-	1    7100 3000
+P 7400 3000
+F 0 "R103" V 7480 3000 50  0000 C CNN
+F 1 "10k" V 7400 3000 50  0000 C CNN
+F 2 "SM0603" V 7500 3000 50  0000 C CNN
+	1    7400 3000
 	1    0    0    -1  
 $EndComp
-Text GLabel 7150 3300 2    25   Output ~ 0
+Text GLabel 7450 3300 2    25   Output ~ 0
 uSD_CS
 $Sheet
 S 600  2600 1200 750 
@@ -703,10 +701,10 @@ $EndComp
 $Comp
 L +5V #PWR015
 U 1 1 4FDE1AEF
-P 7400 2800
-F 0 "#PWR015" H 7400 2890 20  0001 C CNN
-F 1 "+5V" H 7400 2890 30  0000 C CNN
-	1    7400 2800
+P 7700 2800
+F 0 "#PWR015" H 7700 2890 20  0001 C CNN
+F 1 "+5V" H 7700 2890 30  0000 C CNN
+	1    7700 2800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -821,11 +819,11 @@ SDA
 $Comp
 L R R101
 U 1 1 4FA065D3
-P 7400 3100
-F 0 "R101" V 7480 3100 50  0000 C CNN
-F 1 "10k" V 7400 3100 50  0000 C CNN
-F 2 "SM0603" H 7400 3100 60  0000 C CNN
-	1    7400 3100
+P 7700 3100
+F 0 "R101" V 7780 3100 50  0000 C CNN
+F 1 "10k" V 7700 3100 50  0000 C CNN
+F 2 "SM0603" H 7700 3100 60  0000 C CNN
+	1    7700 3100
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -840,7 +838,7 @@ Text GLabel 6600 3600 2    25   Input ~ 0
 SPI_MISO
 Text GLabel 6600 3500 2    25   Output ~ 0
 SPI_MOSI
-Text GLabel 7500 3400 2    25   Output ~ 0
+Text GLabel 7800 3400 2    25   Output ~ 0
 ETH_CS
 Text GLabel 6600 5100 2    25   Input ~ 0
 ETH_INT
@@ -1020,4 +1018,25 @@ F 2 "SM0603" H 4600 1350 60  0000 C CNN
 	1    4600 1350
 	1    0    0    -1  
 $EndComp
+$Comp
+L GS2 GS1
+U 1 1 503DF9F0
+P 6850 3200
+F 0 "GS1" H 6950 3350 50  0000 C CNN
+F 1 "GS2" H 6950 3051 40  0000 C CNN
+	1    6850 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6550 3200 6650 3200
+Text GLabel 7050 3200 2    25   Output ~ 0
+/SPARE
+Text GLabel 8900 4050 3    25   Output ~ 0
+/SPARE
+Text GLabel 10550 4050 3    25   Output ~ 0
+/SPARE
+Wire Wire Line
+	8900 4000 8900 4050
+Wire Wire Line
+	10550 4000 10550 4050
 $EndSCHEMATC
