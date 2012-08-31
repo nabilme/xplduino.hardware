@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date mer. 29 août 2012 21:56:07 CEST
+EESchema Schematic File Version 2  date jeu. 30 août 2012 22:07:05 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "16 Digital Inputs Multiplexied Board"
-Date "29 aug 2012"
+Date "30 aug 2012"
 Rev "draft"
 Comp "XPLDUINO project"
 Comment1 ""
@@ -1012,11 +1012,11 @@ F 1 "+5V" H 6050 4290 30  0000 C CNN
 	1    6050 4200
 	1    0    0    -1  
 $EndComp
-Text Label 1550 8150 2    60   ~ 0
+Text Label 3850 8750 0    60   ~ 0
 A0
 Text Label 3850 8850 0    60   ~ 0
 A1
-Text Label 3850 8750 0    60   ~ 0
+Text Label 1550 8150 2    60   ~ 0
 A2
 Text Label 1550 8350 2    60   ~ 0
 LED
@@ -1688,4 +1688,10 @@ Wire Wire Line
 Connection ~ 7850 3600
 Text Label 7400 3800 0    60   ~ 0
 MISO
+NoConn ~ 4500 5150
+NoConn ~ 4500 4050
+NoConn ~ 4500 2750
+NoConn ~ 4450 1650
+NoConn ~ 6250 3600
+NoConn ~ 6250 2700
 $EndSCHEMATC
