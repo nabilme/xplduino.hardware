@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date ven. 31 août 2012 21:57:51 CEST
+EESchema Schematic File Version 2  date mer. 05 sept. 2012 22:01:51 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "16 Digital Inputs Multiplexied Board"
-Date "31 aug 2012"
+Date "5 sep 2012"
 Rev "draft"
 Comp "XPLDUINO project"
 Comment1 ""
@@ -1342,7 +1342,7 @@ Connection ~ 6000 1150
 Wire Wire Line
 	6000 1100 6000 1150
 Wire Wire Line
-	6150 1150 6150 1100
+	6150 1100 6150 1250
 Wire Wire Line
 	5800 1150 6150 1150
 Connection ~ 4650 1750
@@ -1435,8 +1435,6 @@ Wire Wire Line
 Wire Wire Line
 	12650 1250 12650 1400
 Wire Wire Line
-	11350 1450 12150 1450
-Wire Wire Line
 	12150 1450 12150 2000
 Wire Wire Line
 	13350 1250 13350 1500
@@ -1461,8 +1459,6 @@ Wire Wire Line
 	12200 3200 12650 3200
 Wire Wire Line
 	12650 3200 12650 3350
-Wire Wire Line
-	11350 3400 12150 3400
 Wire Wire Line
 	12150 3400 12150 3950
 Wire Wire Line
@@ -1489,8 +1485,6 @@ Wire Wire Line
 Wire Wire Line
 	12650 5300 12650 5450
 Wire Wire Line
-	11350 5500 12150 5500
-Wire Wire Line
 	12150 5500 12150 6050
 Wire Wire Line
 	13350 5300 13350 5550
@@ -1515,8 +1509,6 @@ Wire Wire Line
 	12200 7250 12650 7250
 Wire Wire Line
 	12650 7250 12650 7400
-Wire Wire Line
-	11350 7450 12150 7450
 Wire Wire Line
 	12150 7450 12150 8000
 Wire Wire Line
@@ -1696,4 +1688,99 @@ NoConn ~ 6250 3600
 NoConn ~ 6250 2700
 Text Notes 11300 2500 0    60   ~ 0
 METTRE 2 resistances au lieu d'une ?
+$Comp
+L C C5
+U 1 1 50479B33
+P 5800 1450
+F 0 "C5" H 5850 1550 50  0000 L CNN
+F 1 "10uF" H 5850 1350 50  0000 L CNN
+	1    5800 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 50479B42
+P 6150 1450
+F 0 "C6" H 6200 1550 50  0000 L CNN
+F 1 "100nF" H 6200 1350 50  0000 L CNN
+	1    6150 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR045
+U 1 1 50479B59
+P 6150 1800
+F 0 "#PWR045" H 6150 1800 40  0001 C CNN
+F 1 "DGND" H 6150 1730 40  0000 C CNN
+	1    6150 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR046
+U 1 1 50479B5F
+P 5800 1800
+F 0 "#PWR046" H 5800 1800 40  0001 C CNN
+F 1 "DGND" H 5800 1730 40  0000 C CNN
+	1    5800 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 6150 1150
+Wire Wire Line
+	5800 1150 5800 1250
+Wire Wire Line
+	5800 1650 5800 1800
+Wire Wire Line
+	6150 1650 6150 1800
+$Comp
+L R R14
+U 1 1 5047AB22
+P 11900 1450
+F 0 "R14" V 11900 1400 50  0000 C CNN
+F 1 "470R" V 11800 1450 50  0000 C CNN
+	1    11900 1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11350 1450 11650 1450
+Text Label 12150 2000 2    60   ~ 0
+GATE02
+$Comp
+L R R31
+U 1 1 5047ACDA
+P 11900 3400
+F 0 "R31" V 11900 3350 50  0000 C CNN
+F 1 "470R" V 11800 3400 50  0000 C CNN
+	1    11900 3400
+	0    -1   -1   0   
+$EndComp
+Text Label 12150 3950 2    60   ~ 0
+GATE12
+Wire Wire Line
+	11350 3400 11650 3400
+$Comp
+L R R32
+U 1 1 5047AE70
+P 11900 5500
+F 0 "R32" V 11900 5450 50  0000 C CNN
+F 1 "470R" V 11800 5500 50  0000 C CNN
+	1    11900 5500
+	0    -1   -1   0   
+$EndComp
+Text Label 12150 6050 2    60   ~ 0
+GATE22
+Wire Wire Line
+	11350 5500 11650 5500
+$Comp
+L R R33
+U 1 1 5047AF3F
+P 11900 7450
+F 0 "R33" V 11900 7400 50  0000 C CNN
+F 1 "470R" V 11800 7450 50  0000 C CNN
+	1    11900 7450
+	0    -1   -1   0   
+$EndComp
+Text Label 12150 8000 2    60   ~ 0
+GATE32
+Wire Wire Line
+	11350 7450 11650 7450
 $EndSCHEMATC
