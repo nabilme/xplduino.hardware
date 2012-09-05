@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = ven. 31 août 2012 22:23:30 CEST
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = mer. 05 sept. 2012 21:49:35 CEST
 
 BeginCmp
 TimeStamp = /502AB6A2;
@@ -26,6 +26,20 @@ TimeStamp = /502ABABC;
 Reference = C4;
 ValeurCmp = C;
 IdModule  = MKS4G024;
+EndCmp
+
+BeginCmp
+TimeStamp = /50479B33;
+Reference = C5;
+ValeurCmp = 10uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50479B42;
+Reference = C6;
+ValeurCmp = 100nF;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
@@ -414,6 +428,13 @@ IdModule  = SM1206;
 EndCmp
 
 BeginCmp
+TimeStamp = /5047AB22;
+Reference = R14;
+ValeurCmp = 470R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
 TimeStamp = /4FA0F020;
 Reference = R15;
 ValeurCmp = 510R;
@@ -522,6 +543,27 @@ BeginCmp
 TimeStamp = /502FC6AC;
 Reference = R30;
 ValeurCmp = 3KR;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5047ACDA;
+Reference = R31;
+ValeurCmp = 470R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5047AE70;
+Reference = R32;
+ValeurCmp = 470R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5047AF3F;
+Reference = R33;
+ValeurCmp = 470R;
 IdModule  = SM1206;
 EndCmp
 
