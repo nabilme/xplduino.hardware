@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date mer. 29 août 2012 13:03:19 CEST
+EESchema Schematic File Version 2  date 11/09/2012 00:14:17
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -41,11 +41,11 @@ LIBS:ALPS_SWITCHS
 LIBS:SMB-cache
 EELAYER 25  0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A4 11700 8267
 encoding utf-8
 Sheet 2 4
 Title ""
-Date "29 aug 2012"
+Date "10 sep 2012"
 Rev ""
 Comp ""
 Comment1 ""

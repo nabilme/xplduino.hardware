@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date mer. 29 août 2012 13:03:19 CEST
+EESchema Schematic File Version 2  date 11/09/2012 00:14:17
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -41,11 +41,11 @@ LIBS:ALPS_SWITCHS
 LIBS:SMB-cache
 EELAYER 25  0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A4 11700 8267
 encoding utf-8
 Sheet 3 4
 Title ""
-Date "29 aug 2012"
+Date "10 sep 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -53,14 +53,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 4500 2250
+Wire Wire Line
+	4550 2250 4450 2250
 Wire Wire Line
 	8050 3200 9100 3200
 Wire Wire Line
 	8050 3100 8050 3250
 Wire Wire Line
 	7450 3200 5850 3200
-Wire Wire Line
-	4450 2050 4500 2050
 Wire Wire Line
 	4500 2050 4500 2000
 Wire Wire Line
@@ -202,13 +203,23 @@ Wire Wire Line
 Wire Wire Line
 	7300 3100 7300 3200
 Wire Wire Line
-	4450 2250 4500 2250
-Wire Wire Line
 	4500 2250 4500 2300
 Wire Wire Line
 	7450 3100 7450 3250
 Connection ~ 7450 3200
 Connection ~ 8050 3200
+Wire Wire Line
+	4550 2050 4450 2050
+Connection ~ 4500 2050
+$Comp
+L CONN_2 P1
+U 1 1 504E657D
+P 4900 2150
+F 0 "P1" V 4850 2150 40  0000 C CNN
+F 1 "CONN_2" V 4950 2150 40  0000 C CNN
+	1    4900 2150
+	1    0    0    -1  
+$EndComp
 $Comp
 L DUAL_IND L301
 U 1 1 5001BD2F
