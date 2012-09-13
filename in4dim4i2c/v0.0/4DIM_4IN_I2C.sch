@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date mer. 05 sept. 2012 22:01:51 CEST
+EESchema Schematic File Version 2  date jeu. 13 sept. 2012 22:13:28 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,12 +35,12 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "16 Digital Inputs Multiplexied Board"
+Title "4 inputs / 4 dimmers i2c board"
 Date "5 sep 2012"
-Rev "draft"
+Rev "0"
 Comp "XPLDUINO project"
-Comment1 ""
-Comment2 ""
+Comment1 "GNU GPL v2"
+Comment2 "Domotic Open Source "
 Comment3 ""
 Comment4 ""
 $EndDescr
