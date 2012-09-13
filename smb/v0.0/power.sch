@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 11/09/2012 00:14:17
+EESchema Schematic File Version 2  date jeu. 13 sept. 2012 22:24:34 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -41,15 +41,15 @@ LIBS:ALPS_SWITCHS
 LIBS:SMB-cache
 EELAYER 25  0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
-Title ""
+Title "Short Main Board - SMB controler"
 Date "10 sep 2012"
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Rev "0"
+Comp "XPLDUINO project"
+Comment1 "GNU GPL v2"
+Comment2 "Domotic Open Source "
 Comment3 ""
 Comment4 ""
 $EndDescr
