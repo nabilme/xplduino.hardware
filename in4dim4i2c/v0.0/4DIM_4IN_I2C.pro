@@ -1,4 +1,4 @@
-update=sam. 18 août 2012 18:47:05 CEST
+update=jeu. 13 sept. 2012 21:21:07 CEST
 version=1
 last_client=pcbnew
 [general]
@@ -53,9 +53,9 @@ EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=4DIM_4IN_I2C.net
-PadDrlX=400
-PadDimH=700
-PadDimV=700
+PadDrlX=0
+PadDimH=550
+PadDimV=550
 BoardThickness=620
 TxtPcbV=500
 TxtPcbH=500
@@ -90,3 +90,4 @@ LibName18=components/Fuseholder_ThroughHole_RevD_24Feb2011
 LibName19=components/Molex_39531-0003
 LibName20=components/inductances
 LibName21=components/SOP4
+LibName22=components/warning
