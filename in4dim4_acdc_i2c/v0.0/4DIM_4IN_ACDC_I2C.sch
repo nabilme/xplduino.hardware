@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date mer. 19 sept. 2012 15:26:32 CEST
+EESchema Schematic File Version 2  date mer. 19 sept. 2012 18:35:46 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -223,13 +223,13 @@ F 1 "+5V" H 6050 3390 30  0000 C CNN
 	1    6050 3300
 	1    0    0    -1  
 $EndComp
-Text Label 3850 7850 0    60   ~ 0
-IN3
-Text Label 3850 7950 0    60   ~ 0
-IN2
 Text Label 3850 8150 0    60   ~ 0
-IN0
+IN3
 Text Label 3850 8050 0    60   ~ 0
+IN2
+Text Label 3850 7850 0    60   ~ 0
+IN0
+Text Label 3850 7950 0    60   ~ 0
 IN1
 $Comp
 L OPTO-TRANSISTOR OK3

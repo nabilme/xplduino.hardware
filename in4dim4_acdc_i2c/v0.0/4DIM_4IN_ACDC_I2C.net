@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  mer. 19 sept. 2012 15:26:37 CEST
+# EESchema Netlist Version 1.1 created  mer. 19 sept. 2012 18:35:50 CEST
 (
  ( /4FA0F020 $noname  R15 510R {Lib=R}
   (    1 N-000066 )
@@ -104,10 +104,10 @@
   (    9 /DIM2 )
   (   10 DGND )
   (   11 /DIM0 )
-  (   12 /IN3 )
-  (   13 /IN2 )
-  (   14 /IN1 )
-  (   15 /IN0 )
+  (   12 /IN0 )
+  (   13 /IN1 )
+  (   14 /IN2 )
+  (   15 /IN3 )
   (   16 //INT )
   (   17 /MOSI(SDA) )
   (   18 /MISO )
@@ -979,9 +979,9 @@ Net 15 "DGND" "DGND"
  P4 2
  KUA1 1
  IC1 10
- OK2 4
  KUA3 1
  IC6 3
+ OK2 4
  OK4 4
  P6 6
  C5 2
@@ -1065,48 +1065,48 @@ Net 41 "" ""
  OK4 2
  R115 2
 Net 42 "" ""
- R118 1
  OK2 1
+ R118 1
  D12 2
 Net 43 "" ""
- R108 2
  R107 2
- OK2 2
  R118 2
+ OK2 2
+ R108 2
 Net 44 "" ""
  D12 1
- R105 2
  R106 2
+ R105 2
 Net 46 "/IN0" "IN0"
- IC1 15
+ IC1 12
  OK1 5
 Net 47 "/DIM3" "DIM3"
  IC1 7
  R20 2
 Net 48 "/DIM1" "DIM1"
- IC1 8
  R18 2
+ IC1 8
 Net 49 "/DIM2" "DIM2"
- R19 2
  IC1 9
+ R19 2
 Net 50 "+5V" "+5V"
- IC3 1
  IC2 1
  IC5 1
  P6 2
  IC4 1
+ IC3 1
  D5 1
  P4 1
  R25 2
  P5 1
- IC1 20
- C6 1
  C5 1
+ C6 1
+ IC1 20
 Net 51 "/DIM0" "DIM0"
- IC1 11
  R17 2
+ IC1 11
 Net 53 "/IN1" "IN1"
- IC1 14
+ IC1 13
  OK2 5
 Net 54 "" ""
  D2 2
@@ -1185,9 +1185,9 @@ Net 72 "" ""
  P14 1
 Net 74 "/IN3" "IN3"
  OK4 5
- IC1 12
+ IC1 15
 Net 76 "/IN2" "IN2"
- IC1 13
+ IC1 14
  OK3 5
 Net 77 "/HT02" "HT02"
  P7 1
