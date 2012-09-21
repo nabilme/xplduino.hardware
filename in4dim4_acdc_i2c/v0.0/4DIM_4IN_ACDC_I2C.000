@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date ven. 21 sept. 2012 13:22:36 CEST
+PCBNEW-BOARD Version 1 date ven. 21 sept. 2012 14:01:49 CEST
 
 # Created by Pcbnew(2011-nov-30)-testing
 
@@ -20,7 +20,7 @@ $EndGENERAL
 
 $SHEETDESCR
 Sheet A3 16535 11693
-Title "4 inputs / 4 dimmers i2c board"
+Title "4 inputs 12V/230VAC / 4 dimmers 230VAC i2c board"
 Date "21 sep 2012"
 Rev "0"
 Comp "XPLDUINO project"
@@ -5804,7 +5804,7 @@ Po 80350 60900 500 500 100 0
 De 20 0 0 Normal
 $EndTEXTPCB
 $TEXTPCB
-Te "S/N: XXXXXX"
+Te "S/N: 59827"
 Po 84300 50800 500 500 100 900
 De 21 1 0 Normal
 $EndTEXTPCB

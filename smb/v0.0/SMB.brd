@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date ven. 21 sept. 2012 13:37:15 CEST
+PCBNEW-BOARD Version 1 date ven. 21 sept. 2012 14:03:58 CEST
 
 # Created by Pcbnew(2011-nov-30)-testing
 
@@ -11,7 +11,7 @@ VisibleLayers 1FFF0000
 Links 230
 NoConn 0
 Di 11663 34871 46409 77658
-Ndraw 47
+Ndraw 48
 Ntrack 706
 Nzone 0
 BoardThickness 630
@@ -60,7 +60,7 @@ PadSize 709 433
 PadDrill 0
 Pad2MaskClearance 100
 AuxiliaryAxisOrg 0 0
-VisibleElements 7FFFFFFF
+VisibleElements 7FFFFCFF
 PcbPlotParams (pcbplotparams (layerselection 15761409) (usegerberextensions true) (excludeedgelayer false) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue false) (plotothertext true) (plotinvisibletext false) (padsonsilk true) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory Gerber/))
 $EndSETUP
 
@@ -4603,6 +4603,11 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE PIN_ARRAY_2X1
+$TEXTPCB
+Te "S/N: 59827"
+Po 33400 59000 394 591 99 0
+De 21 1 0 Normal
+$EndTEXTPCB
 $DRAWSEGMENT
 Po 0 39400 39925 39400 72600 150
 De 20 0 900 0 0
