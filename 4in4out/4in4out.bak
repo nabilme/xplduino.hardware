@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date sam. 29 sept. 2012 17:27:49 CEST
+EESchema Schematic File Version 2  date dim. 30 sept. 2012 15:21:57 CEST
 LIBS:g5la-1-12vdc
 LIBS:power
 LIBS:device
@@ -38,10 +38,10 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title ""
-Date "29 sep 2012"
-Rev ""
-Comp ""
+Title "xPLDUINO 4in4out"
+Date "30 sep 2012"
+Rev "V0.0"
+Comp "xPLDUINO Compagny"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -67,13 +67,13 @@ F 1 "OPTO-TRANSISTOR" H 4700 1000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5200 1100
-Text Label 3950 7350 0    60   ~ 0
-IN3
-Text Label 3950 7450 0    60   ~ 0
-IN2
-Text Label 3950 7550 0    60   ~ 0
-IN1
 Text Label 3950 7650 0    60   ~ 0
+IN3
+Text Label 3950 7550 0    60   ~ 0
+IN2
+Text Label 3950 7450 0    60   ~ 0
+IN1
+Text Label 3950 7350 0    60   ~ 0
 IN0
 $Comp
 L CONN_2 P10
@@ -90,6 +90,7 @@ U 1 1 506593E3
 P 13950 1400
 F 0 "K10" H 13800 1650 60  0000 C CNN
 F 1 "G5T-1-12VDC" H 14000 1100 60  0000 C CNN
+F 2 "G5T-1-12VDC" H 13950 1400 60  0001 C CNN
 	1    13950 1400
 	1    0    0    -1  
 $EndComp
@@ -1721,4 +1722,74 @@ Wire Wire Line
 	2800 9200 2800 9150
 Wire Wire Line
 	5200 1500 5400 1500
+$Comp
+L PWR_FLAG #FLG043
+U 1 1 50675FF0
+P 9700 2000
+F 0 "#FLG043" H 9700 2095 30  0001 C CNN
+F 1 "PWR_FLAG" H 9700 2180 30  0000 C CNN
+	1    9700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR044
+U 1 1 50676001
+P 9950 1950
+F 0 "#PWR044" H 9950 2050 30  0001 C CNN
+F 1 "VCC" H 9950 2050 30  0000 C CNN
+	1    9950 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR045
+U 1 1 50676010
+P 10150 1950
+F 0 "#PWR045" H 10150 2040 20  0001 C CNN
+F 1 "+5V" H 10150 2040 30  0000 C CNN
+	1    10150 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 5067601F
+P 9800 2300
+F 0 "C1" H 9850 2400 50  0000 L CNN
+F 1 "C" H 9850 2200 50  0000 L CNN
+	1    9800 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 5067602E
+P 10050 2300
+F 0 "C2" H 10100 2400 50  0000 L CNN
+F 1 "C" H 10100 2200 50  0000 L CNN
+	1    10050 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR046
+U 1 1 50676047
+P 9950 2600
+F 0 "#PWR046" H 9950 2600 40  0001 C CNN
+F 1 "DGND" H 9950 2530 40  0000 C CNN
+	1    9950 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 2000 9700 2100
+Wire Wire Line
+	9700 2100 10150 2100
+Connection ~ 9800 2100
+Wire Wire Line
+	10150 2100 10150 1950
+Connection ~ 10050 2100
+Wire Wire Line
+	9950 1950 9950 2100
+Connection ~ 9950 2100
+Wire Wire Line
+	9800 2500 10050 2500
+Wire Wire Line
+	9950 2500 9950 2600
+Connection ~ 9950 2500
 $EndSCHEMATC
