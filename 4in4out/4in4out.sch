@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date dim. 30 sept. 2012 00:12:58 CEST
+EESchema Schematic File Version 2  date dim. 30 sept. 2012 15:49:41 CEST
 LIBS:g5la-1-12vdc
 LIBS:power
 LIBS:device
@@ -39,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "xPLDUINO 4in4out"
-Date "29 sep 2012"
+Date "30 sep 2012"
 Rev "V0.0"
 Comp "xPLDUINO Compagny"
 Comment1 ""
@@ -67,13 +67,13 @@ F 1 "OPTO-TRANSISTOR" H 4700 1000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5200 1100
-Text Label 3950 7350 0    60   ~ 0
-IN3
-Text Label 3950 7450 0    60   ~ 0
-IN2
-Text Label 3950 7550 0    60   ~ 0
-IN1
 Text Label 3950 7650 0    60   ~ 0
+IN3
+Text Label 3950 7550 0    60   ~ 0
+IN2
+Text Label 3950 7450 0    60   ~ 0
+IN1
+Text Label 3950 7350 0    60   ~ 0
 IN0
 $Comp
 L CONN_2 P10
@@ -125,9 +125,9 @@ Text Label 11800 2050 0    60   ~ 0
 OUT0
 Text Label 3950 8850 0    60   ~ 0
 OUT0
-Text Label 3950 8750 0    60   ~ 0
-OUT2
 Text Label 3950 8650 0    60   ~ 0
+OUT2
+Text Label 3950 8750 0    60   ~ 0
 OUT1
 Text Label 3950 8550 0    60   ~ 0
 OUT3
