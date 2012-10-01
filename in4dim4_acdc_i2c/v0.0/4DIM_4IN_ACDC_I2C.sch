@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date jeu. 20 sept. 2012 18:41:36 CEST
+EESchema Schematic File Version 2  date lun. 01 oct. 2012 13:07:54 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,7 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:4DIM_4IN_ACDC_I2C-cache
-EELAYER 25  0
+EELAYER 27 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8

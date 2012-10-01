@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date dim. 30 sept. 2012 15:21:57 CEST
+EESchema Schematic File Version 2  date dim. 30 sept. 2012 15:49:41 CEST
 LIBS:g5la-1-12vdc
 LIBS:power
 LIBS:device
@@ -125,9 +125,9 @@ Text Label 11800 2050 0    60   ~ 0
 OUT0
 Text Label 3950 8850 0    60   ~ 0
 OUT0
-Text Label 3950 8750 0    60   ~ 0
-OUT2
 Text Label 3950 8650 0    60   ~ 0
+OUT2
+Text Label 3950 8750 0    60   ~ 0
 OUT1
 Text Label 3950 8550 0    60   ~ 0
 OUT3
