@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date dim. 30 sept. 2012 15:49:41 CEST
+EESchema Schematic File Version 2  date lun. 01 oct. 2012 13:09:25 CEST
 LIBS:g5la-1-12vdc
 LIBS:power
 LIBS:device
@@ -33,17 +33,17 @@ LIBS:valves
 LIBS:relays
 LIBS:g5t-1-12vdc
 LIBS:4in4out-cache
-EELAYER 25  0
+EELAYER 27 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "xPLDUINO 4in4out"
+Title "4in4out i2c board"
 Date "30 sep 2012"
 Rev "V0.0"
-Comp "xPLDUINO Compagny"
-Comment1 ""
-Comment2 ""
+Comp "XPLDUINO project"
+Comment1 "GNU GPL v2"
+Comment2 "Domotic Open Source "
 Comment3 ""
 Comment4 ""
 $EndDescr

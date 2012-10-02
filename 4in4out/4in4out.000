@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date dim. 30 sept. 2012 17:39:24 CEST
+PCBNEW-BOARD Version 1 date lun. 01 oct. 2012 13:09:15 CEST
 
 # Created by Pcbnew(2011-nov-30)-testing
 
@@ -19,13 +19,13 @@ Nnets 69
 $EndGENERAL
 
 $SHEETDESCR
-Sheet User 5138 5118
-Title ""
-Date "30 sep 2012"
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Sheet User 17000 11000
+Title "4in4out I2C board"
+Date "1 oct 2012"
+Rev "0"
+Comp "XPLDUINO project"
+Comment1 "GNU GPL v2"
+Comment2 "Domotic Open Source "
 Comment3 ""
 Comment4 ""
 $EndSHEETDESCR
