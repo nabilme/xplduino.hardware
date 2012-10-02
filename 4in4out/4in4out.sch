@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date lun. 01 oct. 2012 13:09:25 CEST
+EESchema Schematic File Version 2  date mar. 02 oct. 2012 18:53:58 CEST
 LIBS:g5la-1-12vdc
 LIBS:power
 LIBS:device
@@ -39,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "4in4out i2c board"
-Date "30 sep 2012"
+Date "2 oct 2012"
 Rev "V0.0"
 Comp "XPLDUINO project"
 Comment1 "GNU GPL v2"
@@ -1578,9 +1578,9 @@ Text Label 3950 8250 0    60   ~ 0
 A0
 Text Label 3950 8350 0    60   ~ 0
 A1
-Text Label 1650 7650 2    60   ~ 0
-A3
 Text Label 3950 8450 0    60   ~ 0
+A3
+Text Label 1650 7650 2    60   ~ 0
 A2
 $Comp
 L CONN_2 P100

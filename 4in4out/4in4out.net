@@ -1,12 +1,12 @@
-# EESchema Netlist Version 1.1 created  dim. 30 sept. 2012 15:49:52 CEST
+# EESchema Netlist Version 1.1 created  mar. 02 oct. 2012 18:54:09 CEST
 (
  ( /506411C8 DIP20  IC1 ATTINY2313-P {Lib=ATTINY2313-P}
   (    1 N-000070 )
   (    2 /A0 )
   (    3 /A1 )
-  (    4 /A3 )
+  (    4 /A2 )
   (    5 N-000003 )
-  (    6 /A2 )
+  (    6 /A3 )
   (    7 /OUT3 )
   (    8 /OUT2 )
   (    9 /OUT1 )
@@ -1006,12 +1006,12 @@ Net 52 "/A0" "A0"
 Net 53 "/A1" "A1"
  P102 2
  IC1 3
-Net 54 "/A3" "A3"
- P100 2
+Net 54 "/A2" "A2"
  IC1 4
-Net 55 "/A2" "A2"
- IC1 6
  P101 2
+Net 55 "/A3" "A3"
+ P100 2
+ IC1 6
 Net 56 "" ""
  P10 2
  K10 4
