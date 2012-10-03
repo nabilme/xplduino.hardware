@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date mer. 03 oct. 2012 08:24:28 CEST
+EESchema Schematic File Version 2  date mer. 03 oct. 2012 15:48:29 CEST
 LIBS:g5la-1-12vdc
 LIBS:power
 LIBS:device
@@ -1814,4 +1814,92 @@ Wire Wire Line
 	8650 3050 8900 3050
 Wire Wire Line
 	8650 2350 8900 2350
+Text Label 14700 1250 0    60   ~ 0
+230_10_1
+Text Label 14650 1450 0    60   ~ 0
+230_10_2
+Text Label 14750 3400 0    60   ~ 0
+230_20_1
+Text Label 14700 3600 0    60   ~ 0
+230_20_2
+Text Label 14800 5700 0    60   ~ 0
+230_30_1
+Text Label 14800 5900 0    60   ~ 0
+230_30_2
+Text Label 14900 7850 0    60   ~ 0
+230_40_1
+Text Label 14850 8050 0    60   ~ 0
+230_40_2
+Text Label 5200 1500 0    60   ~ 0
+DGND
+Text Label 5200 2700 0    60   ~ 0
+DGND
+Text Label 5200 3900 0    60   ~ 0
+DGND
+Text Label 5200 5100 0    60   ~ 0
+DGND
+Text Label 2800 9150 0    60   ~ 0
+DGND
+Text Label 1450 8950 0    60   ~ 0
+DGND
+Text Label 12350 9700 0    60   ~ 0
+DGND
+Text Label 13400 8850 0    60   ~ 0
+DGND
+Text Label 12250 7550 0    60   ~ 0
+DGND
+Text Label 13300 6700 0    60   ~ 0
+DGND
+Text Label 12200 5250 0    60   ~ 0
+DGND
+Text Label 13250 4400 0    60   ~ 0
+DGND
+Text Label 12100 3100 0    60   ~ 0
+DGND
+Text Label 13150 2250 0    60   ~ 0
+DGND
+Text Label 11000 2500 0    60   ~ 0
+DGND
+Text Label 10500 2500 0    60   ~ 0
+DGND
+Text Label 10050 2500 0    60   ~ 0
+DGND
+Text Label 9800 2500 0    60   ~ 0
+DGND
+Text Label 9850 1250 0    60   ~ 0
+DGND
+Text Label 10750 1000 0    60   ~ 0
+DGND
+Text Label 10250 1250 0    60   ~ 0
+DGND
+Text Label 9000 1250 0    60   ~ 0
+DGND
+Text Label 8300 1250 0    60   ~ 0
+DGND
+Text Label 8650 1250 0    60   ~ 0
+DGND
+Text Label 7950 1250 0    60   ~ 0
+DGND
+Text Label 6950 950  0    60   ~ 0
+DGND
+Text Label 8900 2250 0    60   ~ 0
+DGND
+Text Label 8900 2950 0    60   ~ 0
+DGND
+Text Label 1950 1100 0    60   ~ 0
+230_50_1
+Text Label 1950 2300 0    60   ~ 0
+230_60_1
+Text Label 1950 3500 0    60   ~ 0
+230_70_1
+Text Label 1950 4700 0    60   ~ 0
+230_80_1
+Text Label 1850 2000 1    60   ~ 0
+230_50_2
+Text Label 1850 3150 1    60   ~ 0
+230_60_2
+Text Label 1850 4350 1    60   ~ 0
+230_70_2
+Text Label 1850 5550 1    60   ~ 0
+230_80_2
 $EndSCHEMATC
