@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date mar. 02 oct. 2012 18:53:58 CEST
+EESchema Schematic File Version 2  date mer. 03 oct. 2012 08:24:28 CEST
 LIBS:g5la-1-12vdc
 LIBS:power
 LIBS:device
@@ -39,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "4in4out i2c board"
-Date "2 oct 2012"
+Date "3 oct 2012"
 Rev "V0.0"
 Comp "XPLDUINO project"
 Comment1 "GNU GPL v2"
@@ -1301,7 +1301,7 @@ P 9250 2100
 F 0 "P120" V 9200 2100 60  0000 C CNN
 F 1 "CONN_6" V 9300 2100 60  0000 C CNN
 	1    9250 2100
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L CONN_6 P121
@@ -1310,7 +1310,7 @@ P 9250 2800
 F 0 "P121" V 9200 2800 60  0000 C CNN
 F 1 "CONN_6" V 9300 2800 60  0000 C CNN
 	1    9250 2800
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 NoConn ~ 8900 1850
 NoConn ~ 8900 2550
@@ -1792,4 +1792,26 @@ Wire Wire Line
 Wire Wire Line
 	9950 2500 9950 2600
 Connection ~ 9950 2500
+$Comp
+L +5V #PWR047
+U 1 1 506BDD19
+P 8650 2350
+F 0 "#PWR047" H 8650 2440 20  0001 C CNN
+F 1 "+5V" H 8650 2440 30  0000 C CNN
+	1    8650 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +5V #PWR048
+U 1 1 506BDD28
+P 8650 3050
+F 0 "#PWR048" H 8650 3140 20  0001 C CNN
+F 1 "+5V" H 8650 3140 30  0000 C CNN
+	1    8650 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8650 3050 8900 3050
+Wire Wire Line
+	8650 2350 8900 2350
 $EndSCHEMATC
