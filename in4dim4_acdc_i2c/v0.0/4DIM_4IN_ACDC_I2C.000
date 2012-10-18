@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date ven. 21 sept. 2012 14:01:49 CEST
+PCBNEW-BOARD Version 1 date ven. 21 sept. 2012 14:05:37 CEST
 
 # Created by Pcbnew(2011-nov-30)-testing
 
@@ -7,6 +7,7 @@ encoding utf-8
 Units deci-mils
 LayerCount 2
 EnabledLayers 1FFF8001
+VisibleLayers 1FEF0000
 Links 168
 NoConn 0
 Di 44984 23851 95618 64401
@@ -59,7 +60,7 @@ PadSize 1000 1000
 PadDrill 472
 Pad2MaskClearance 150
 AuxiliaryAxisOrg 0 0
-VisibleElements 7FFFFFFF
+VisibleElements 7FFFFDFF
 PcbPlotParams (pcbplotparams (layerselection 15761409) (usegerberextensions true) (excludeedgelayer false) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (psnegative false) (psa4output false) (plotreference true) (plotvalue false) (plotothertext true) (plotinvisibletext false) (padsonsilk true) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory GERBER/))
 $EndSETUP
 
@@ -5805,7 +5806,7 @@ De 20 0 0 Normal
 $EndTEXTPCB
 $TEXTPCB
 Te "S/N: 59827"
-Po 84300 50800 500 500 100 900
+Po 83850 50550 500 500 100 900
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
@@ -5896,7 +5897,8 @@ $EndTEXTPCB
 $TEXTPCB
 Te "4 INPUTS"
 nl "4 DIMMERS"
-Po 72050 51300 500 500 100 0
+nl "v0.0"
+Po 72050 50700 500 500 100 0
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
