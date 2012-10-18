@@ -1,8 +1,6 @@
-update=mar. 21 août 2012 14:33:12 CEST
+update=mer. 17 oct. 2012 21:06:11 CEST
 version=1
-last_client=eeschema
-[general]
-version=1
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -96,3 +94,5 @@ LibName36=usd_conn
 LibName37=74lvc1g126gw
 LibName38=dual_self
 LibName39=ALPS_SWITCHS
+[general]
+version=1
