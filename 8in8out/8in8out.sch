@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date dim. 10 févr. 2013 10:46:28 CET
+EESchema Schematic File Version 2  date dim. 10 févr. 2013 15:59:09 CET
 LIBS:g5la-1-12vdc
 LIBS:power
 LIBS:device
@@ -2618,8 +2618,6 @@ Text GLabel 10800 8800 0    60   Output ~ 0
 CLK_IN
 Wire Wire Line
 	11300 8650 10800 8650
-Wire Wire Line
-	10800 7700 11300 7700
 Text GLabel 9050 3100 3    60   Output ~ 0
 A0
 Text GLabel 8700 3100 3    60   Output ~ 0
@@ -2664,7 +2662,7 @@ Wire Wire Line
 	10800 8800 11300 8800
 Wire Wire Line
 	11150 8900 11300 8900
-Text GLabel 10800 7700 0    60   Output ~ 0
+Text GLabel 12800 7800 2    60   Output ~ 0
 DATA_IN
 Wire Wire Line
 	11150 8900 11150 8800
@@ -2933,28 +2931,20 @@ Connection ~ 3800 7400
 Connection ~ 3800 5950
 Connection ~ 3800 4500
 Wire Wire Line
-	12250 6750 12250 6950
+	12250 6750 12250 7050
 $Comp
-L CONN_3 P107
+L CONN_5 P107
 U 1 1 51172A2D
-P 12600 7050
-F 0 "P107" V 12550 7050 50  0000 C CNN
-F 1 "CONN_3" V 12650 7050 40  0000 C CNN
-	1    12600 7050
+P 12650 7250
+F 0 "P107" V 12600 7250 50  0000 C CNN
+F 1 "CONN_3" V 12700 7250 40  0000 C CNN
+	1    12650 7250
 	1    0    0    -1  
 $EndComp
 Text GLabel 12100 7050 0    60   Input ~ 0
 CLK
-Text GLabel 12100 7250 0    60   Input ~ 0
+Text GLabel 12100 7200 0    60   Input ~ 0
 LATCH
-Wire Wire Line
-	12100 7050 12250 7050
-Wire Wire Line
-	12100 7250 12200 7250
-Wire Wire Line
-	12200 7250 12200 7150
-Wire Wire Line
-	12200 7150 12250 7150
 $Comp
 L CONN_2 P109
 U 1 1 51173043
@@ -2993,5 +2983,43 @@ F 0 "#PWR?" H 6800 13950 30  0001 C CNN
 F 1 "GND" H 6800 13880 30  0001 C CNN
 	1    6800 13950
 	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12700 7800 12800 7800
+Wire Wire Line
+	12100 7050 12200 7050
+Wire Wire Line
+	12200 7050 12200 7150
+Wire Wire Line
+	12200 7150 12250 7150
+Wire Wire Line
+	12100 7200 12150 7200
+Wire Wire Line
+	12150 7200 12150 7250
+Wire Wire Line
+	12150 7250 12250 7250
+Wire Wire Line
+	12250 7350 12150 7350
+Wire Wire Line
+	12250 7450 12150 7450
+Wire Wire Line
+	12150 7450 12150 7500
+$Comp
+L DGND #PWR?
+U 1 1 5117C4D5
+P 12150 7500
+F 0 "#PWR?" H 12150 7500 40  0001 C CNN
+F 1 "DGND" H 12150 7430 40  0000 C CNN
+	1    12150 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5117C4DB
+P 12150 7350
+F 0 "#PWR?" H 12150 7440 20  0001 C CNN
+F 1 "+5V" H 12150 7440 30  0000 C CNN
+	1    12150 7350
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
