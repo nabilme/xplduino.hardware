@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date dim. 10 févr. 2013 10:39:14 CET
+EESchema Schematic File Version 2  date dim. 10 févr. 2013 15:57:36 CET
 LIBS:g5la-1-12vdc
 LIBS:power
 LIBS:device
@@ -1875,15 +1875,15 @@ CMD6
 Text GLabel 3950 13200 2    60   Input ~ 0
 CMD7
 Text GLabel 11200 8000 0    60   Output ~ 0
-CMND2
+CMD2
 Text GLabel 11200 7800 0    60   Output ~ 0
-CMND0
+CMD0
 Text GLabel 10800 8100 0    60   Output ~ 0
-CMND3
+CMD3
 Text GLabel 10800 7900 0    60   Output ~ 0
-CMND1
+CMD1
 Text GLabel 11200 8200 0    60   Output ~ 0
-CMND4
+CMD4
 Text GLabel 8850 7800 2    60   Output ~ 0
 MOSI(SDA)
 Text GLabel 8450 7900 2    60   Input ~ 0
@@ -2582,11 +2582,11 @@ Wire Notes Line
 Wire Notes Line
 	5550 5800 5550 3500
 Text GLabel 10800 8500 0    60   Output ~ 0
-CMND7
+CMD7
 Text GLabel 11200 8400 0    60   Output ~ 0
-CMND6
+CMD6
 Text GLabel 10800 8300 0    60   Output ~ 0
-CMND5
+CMD5
 Wire Notes Line
 	9550 6000 9550 9350
 $Comp
@@ -2618,8 +2618,6 @@ Text GLabel 10800 8800 0    60   Output ~ 0
 CLK_IN
 Wire Wire Line
 	11300 8650 10800 8650
-Wire Wire Line
-	10800 7700 11300 7700
 Text GLabel 9050 3100 3    60   Output ~ 0
 A0
 Text GLabel 8700 3100 3    60   Output ~ 0
@@ -2664,7 +2662,7 @@ Wire Wire Line
 	10800 8800 11300 8800
 Wire Wire Line
 	11150 8900 11300 8900
-Text GLabel 10800 7700 0    60   Output ~ 0
+Text GLabel 12800 7800 2    60   Output ~ 0
 DATA_IN
 Wire Wire Line
 	11150 8900 11150 8800
@@ -2994,4 +2992,6 @@ F 1 "GND" H 6800 13880 30  0001 C CNN
 	1    6800 13950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	12700 7800 12800 7800
 $EndSCHEMATC
