@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date sam. 09 févr. 2013 21:24:44 CET
+EESchema Schematic File Version 2  date dim. 10 févr. 2013 10:46:28 CET
 LIBS:g5la-1-12vdc
 LIBS:power
 LIBS:device
@@ -39,7 +39,7 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "8in 8relays I2C board"
-Date "9 feb 2013"
+Date "10 feb 2013"
 Rev "V0.0"
 Comp "XPLDUINO project"
 Comment1 "GNU GPL v2"
@@ -1875,15 +1875,15 @@ CMD6
 Text GLabel 3950 13200 2    60   Input ~ 0
 CMD7
 Text GLabel 11200 8000 0    60   Output ~ 0
-CMND2
+CMD2
 Text GLabel 11200 7800 0    60   Output ~ 0
-CMND0
+CMD0
 Text GLabel 10800 8100 0    60   Output ~ 0
-CMND3
+CMD3
 Text GLabel 10800 7900 0    60   Output ~ 0
-CMND1
+CMD1
 Text GLabel 11200 8200 0    60   Output ~ 0
-CMND4
+CMD4
 Text GLabel 8850 7800 2    60   Output ~ 0
 MOSI(SDA)
 Text GLabel 8450 7900 2    60   Input ~ 0
@@ -2582,11 +2582,11 @@ Wire Notes Line
 Wire Notes Line
 	5550 5800 5550 3500
 Text GLabel 10800 8500 0    60   Output ~ 0
-CMND7
+CMD7
 Text GLabel 11200 8400 0    60   Output ~ 0
-CMND6
+CMD6
 Text GLabel 10800 8300 0    60   Output ~ 0
-CMND5
+CMD5
 Wire Notes Line
 	9550 6000 9550 9350
 $Comp
@@ -2711,15 +2711,6 @@ Wire Wire Line
 	6650 13250 6800 13250
 Wire Wire Line
 	6800 13250 6800 13300
-$Comp
-L DGND #PWR091
-U 1 1 5117122F
-P 6800 13300
-F 0 "#PWR091" H 6800 13300 40  0001 C CNN
-F 1 "DGND" H 6800 13230 40  0000 C CNN
-	1    6800 13300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6650 12850 6700 12850
 Wire Wire Line
@@ -2749,15 +2740,6 @@ Wire Wire Line
 	6650 13900 6800 13900
 Wire Wire Line
 	6800 13900 6800 13950
-$Comp
-L DGND #PWR092
-U 1 1 511717B2
-P 6800 13950
-F 0 "#PWR092" H 6800 13950 40  0001 C CNN
-F 1 "DGND" H 6800 13880 40  0000 C CNN
-	1    6800 13950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6650 13500 6700 13500
 Wire Wire Line
@@ -2994,4 +2976,22 @@ Wire Notes Line
 	5250 6000 5250 9350
 Wire Notes Line
 	5250 9350 5550 9350
+$Comp
+L GND #PWR?
+U 1 1 51176AB9
+P 6800 13300
+F 0 "#PWR?" H 6800 13300 30  0001 C CNN
+F 1 "GND" H 6800 13230 30  0001 C CNN
+	1    6800 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 51176ACB
+P 6800 13950
+F 0 "#PWR?" H 6800 13950 30  0001 C CNN
+F 1 "GND" H 6800 13880 30  0001 C CNN
+	1    6800 13950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

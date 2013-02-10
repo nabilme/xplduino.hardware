@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-nov-02)-testing date = sam. 09 févr. 2013 22:55:02 CET
+Cmp-Mod V01 Created by CvPcb (2012-nov-02)-testing date = dim. 10 févr. 2013 11:50:02 CET
 
 BeginCmp
 TimeStamp = /5067601F;
@@ -214,7 +214,7 @@ BeginCmp
 TimeStamp = /50670675;
 Reference = ISP0;
 ValeurCmp = CONN_3X2;
-IdModule  = HE10-6;
+IdModule  = pin_array_3x2;
 EndCmp
 
 BeginCmp
