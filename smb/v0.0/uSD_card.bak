@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date jeu. 13 sept. 2012 22:17:30 CEST
+EESchema Schematic File Version 2  date 12/12/2012 00:21:44
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -41,11 +41,11 @@ LIBS:ALPS_SWITCHS
 LIBS:SMB-cache
 EELAYER 25  0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A4 11700 8267
 encoding utf-8
 Sheet 2 4
 Title "Short Main Board - SMB controler"
-Date "10 sep 2012"
+Date "11 dec 2012"
 Rev "0"
 Comp "XPLDUINO project"
 Comment1 "GNU GPL v2"
@@ -53,6 +53,8 @@ Comment2 "Domotic Open Source "
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 1150 3950 0    60   ~ 0
+Need to tie OE to ground to \nhave a high impedance output !
 Wire Notes Line
 	2675 3800 2675 800 
 Wire Notes Line

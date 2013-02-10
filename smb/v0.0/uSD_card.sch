@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date jeu. 13 sept. 2012 22:24:34 CEST
+EESchema Schematic File Version 2  date 10/02/2013 13:01:35
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -41,11 +41,11 @@ LIBS:ALPS_SWITCHS
 LIBS:SMB-cache
 EELAYER 25  0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A4 11700 8267
 encoding utf-8
 Sheet 2 4
 Title "Short Main Board - SMB controler"
-Date "10 sep 2012"
+Date "10 feb 2013"
 Rev "0"
 Comp "XPLDUINO project"
 Comment1 "GNU GPL v2"
@@ -53,6 +53,9 @@ Comment2 "Domotic Open Source "
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 1775 3575
+Wire Wire Line
+	1850 3575 1600 3575
 Wire Notes Line
 	2675 3800 2675 800 
 Wire Notes Line
@@ -61,13 +64,6 @@ Wire Notes Line
 	1150 3800 1150 800 
 Wire Wire Line
 	2350 3475 2300 3475
-Connection ~ 2100 3300
-Wire Wire Line
-	2100 3300 1800 3300
-Wire Wire Line
-	1800 3300 1800 3400
-Wire Wire Line
-	1800 3400 1850 3400
 Wire Wire Line
 	3450 2425 3675 2425
 Wire Wire Line
@@ -144,10 +140,14 @@ Wire Wire Line
 Wire Wire Line
 	2100 3625 2100 3675
 Wire Wire Line
-	1800 3575 1850 3575
+	1850 3400 1775 3400
+Wire Wire Line
+	1775 3400 1775 3575
+Text Notes 1150 3950 0    60   ~ 0
+Need to tie OE to ground to \nhave a high impedance output !
 Text Notes 2450 3125 2    100  ~ 0
 3.3V -> 5V
-Text GLabel 1800 3575 0    25   Input ~ 0
+Text GLabel 1600 3575 0    25   Input ~ 0
 MISO_33
 Text GLabel 2350 3475 2    25   Output ~ 0
 SPI_MISO
@@ -174,7 +174,7 @@ L 74LVC1G126GW U206
 U 1 1 4FF08F14
 P 2000 3525
 F 0 "U206" H 2275 3400 60  0000 C CNN
-F 1 "74LVC1G126GW" H 1600 3575 60  0000 C CNN
+F 1 "74LVC1G126GW" H 1525 3775 60  0000 C CNN
 F 2 "SOT353" H 1600 3675 60  0000 C CNN
 	1    2000 3525
 	1    0    0    -1  
