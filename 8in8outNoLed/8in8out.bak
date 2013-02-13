@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date mar. 12 févr. 2013 21:48:12 CET
+EESchema Schematic File Version 2  date mar. 12 févr. 2013 22:02:14 CET
 LIBS:g5la-1-12vdc
 LIBS:power
 LIBS:device
@@ -2180,9 +2180,9 @@ F 1 "CONN_8" V 13500 7600 40  0000 C CNN
 	1    13450 7600
 	1    0    0    -1  
 $EndComp
-Text GLabel 12950 7250 0    60   Input ~ 0
+Text GLabel 12500 7950 0    60   Input ~ 0
 CLK_OUT
-Text GLabel 12900 7450 0    60   Input ~ 0
+Text GLabel 12500 8100 0    60   Input ~ 0
 LATCH_OUT
 $Comp
 L CONN_2 P109
@@ -2218,10 +2218,10 @@ Wire Wire Line
 $Comp
 L +5V #PWR075
 U 1 1 5117C4DB
-P 13100 7650
-F 0 "#PWR075" H 13100 7740 20  0001 C CNN
-F 1 "+5V" H 13100 7740 30  0000 C CNN
-	1    13100 7650
+P 12950 7250
+F 0 "#PWR075" H 12950 7340 20  0001 C CNN
+F 1 "+5V" H 12950 7340 30  0000 C CNN
+	1    12950 7250
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -2361,24 +2361,13 @@ F 1 "R" V 14550 7150 50  0000 C CNN
 	1    14550 7150
 	0    -1   -1   0   
 $EndComp
-$Comp
-L DGND #PWR081
-U 1 1 5117C4D5
-P 12900 7700
-F 0 "#PWR081" H 12900 7700 40  0001 C CNN
-F 1 "DGND" H 12900 7630 40  0000 C CNN
-	1    12900 7700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	12900 7550 13100 7550
-Wire Wire Line
-	12900 7550 12900 7700
+	11900 7550 13100 7550
 Wire Wire Line
 	13100 6950 12950 6950
 Text GLabel 12250 6750 2    60   Output ~ 0
 U1_OUT
-Text GLabel 12950 6950 0    60   Input ~ 0
+Text GLabel 12700 7650 0    60   Input ~ 0
 U1_OUT
 Text GLabel 6650 13900 2    60   Input ~ 0
 COM2
@@ -2417,15 +2406,15 @@ C160
 Text Label 19750 4950 0    60   ~ 0
 C150
 Text GLabel 10800 8600 0    60   Input ~ 0
-DATA_IN
+U2_IN
 Wire Wire Line
 	11300 8600 10800 8600
 Text GLabel 12500 7800 0    60   Output ~ 0
 LATCH_IN
-Text GLabel 12500 7950 0    60   Output ~ 0
+Text GLabel 12900 7450 0    60   Output ~ 0
 CLK_IN
-Text GLabel 12500 8100 0    60   Output ~ 0
-DATA_IN
+Text GLabel 12950 6950 0    60   Output ~ 0
+U2_IN
 Wire Wire Line
 	12500 7800 13050 7800
 Wire Wire Line
@@ -2442,4 +2431,17 @@ Wire Wire Line
 	13100 7950 13100 8100
 Wire Wire Line
 	13100 8100 12500 8100
+Wire Wire Line
+	13100 7650 12700 7650
+Wire Wire Line
+	11900 7550 11900 7600
+$Comp
+L DGND #PWR081
+U 1 1 5117C4D5
+P 11900 7600
+F 0 "#PWR081" H 11900 7600 40  0001 C CNN
+F 1 "DGND" H 11900 7530 40  0000 C CNN
+	1    11900 7600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

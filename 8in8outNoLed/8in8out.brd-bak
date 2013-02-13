@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date sam. 09 févr. 2013 22:04:17 CET
+PCBNEW-BOARD Version 2 date sam. 09 févr. 2013 22:07:27 CET
 
 # Created by Pcbnew(2012-nov-02)-testing
 
@@ -10,7 +10,7 @@ EnabledLayers 1FFF8001
 Links 226
 NoConn 124
 Di 12.407899 12.506959 291.020501 172.1612
-Ndraw 10
+Ndraw 9
 Ntrack 0
 Nzone 0
 BoardThickness 1.6002
@@ -6362,10 +6362,6 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE CMS-6
-$DRAWSEGMENT
-Po 0 290.83 71.12 290.83 157.48 0.381
-De 28 0 900 0 0
-$EndDRAWSEGMENT
 $DRAWSEGMENT
 Po 0 181.61 71.12 290.83 71.12 0.381
 De 28 0 900 0 0

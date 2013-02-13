@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-nov-02)-testing date = mar. 12 févr. 2013 21:48:50 CET
+Cmp-Mod V01 Created by CvPcb (2012-nov-02)-testing date = mer. 13 févr. 2013 18:12:54 CET
 
 BeginCmp
 TimeStamp = /5067601F;
@@ -260,10 +260,24 @@ IdModule  = MOL_CONN_2_VH;
 EndCmp
 
 BeginCmp
+TimeStamp = /511BCD15;
+Reference = P111;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
 TimeStamp = /51151289;
 Reference = P120;
 ValeurCmp = CONN_2;
 IdModule  = MOL_CONN_2_VH;
+EndCmp
+
+BeginCmp
+TimeStamp = /511BCD1B;
+Reference = P121;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
@@ -274,10 +288,24 @@ IdModule  = MOL_CONN_2_VH;
 EndCmp
 
 BeginCmp
+TimeStamp = /511BCD2B;
+Reference = P131;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
 TimeStamp = /5115137A;
 Reference = P140;
 ValeurCmp = CONN_2;
 IdModule  = MOL_CONN_2_VH;
+EndCmp
+
+BeginCmp
+TimeStamp = /511BCD31;
+Reference = P141;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
@@ -288,10 +316,24 @@ IdModule  = MOL_CONN_2_VH;
 EndCmp
 
 BeginCmp
+TimeStamp = /511BDA19;
+Reference = P151;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
 TimeStamp = /51151560;
 Reference = P160;
 ValeurCmp = CONN_2;
 IdModule  = MOL_CONN_2_VH;
+EndCmp
+
+BeginCmp
+TimeStamp = /511BDA1F;
+Reference = P161;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
@@ -302,10 +344,24 @@ IdModule  = MOL_CONN_2_VH;
 EndCmp
 
 BeginCmp
+TimeStamp = /511BDA25;
+Reference = P171;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
 TimeStamp = /51151602;
 Reference = P180;
 ValeurCmp = CONN_2;
 IdModule  = MOL_CONN_2_VH;
+EndCmp
+
+BeginCmp
+TimeStamp = /511BDA2B;
+Reference = P181;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
