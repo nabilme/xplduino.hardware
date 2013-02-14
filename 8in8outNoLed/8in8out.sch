@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date mer. 13 févr. 2013 22:14:54 CET
+EESchema Schematic File Version 2  date jeu. 14 févr. 2013 20:12:08 CET
 LIBS:g5la-1-12vdc
 LIBS:power
 LIBS:device
@@ -39,7 +39,7 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "8in 8relays I2C board"
-Date "13 feb 2013"
+Date "14 feb 2013"
 Rev "V0.0"
 Comp "XPLDUINO project"
 Comment1 "GNU GPL v2"
@@ -1415,13 +1415,11 @@ Wire Notes Line
 Wire Notes Line
 	10150 11150 10150 10300
 Wire Notes Line
-	14600 13700 12900 13700
+	12900 13700 15000 13700
 Wire Notes Line
 	12900 13700 12900 11600
 Wire Notes Line
-	12900 11600 14600 11600
-Wire Notes Line
-	14600 11600 14600 13700
+	12900 11600 15000 11600
 Wire Notes Line
 	1900 13600 5950 13600
 Wire Notes Line
@@ -2652,4 +2650,42 @@ Wire Wire Line
 	10950 12650 11000 12650
 Wire Wire Line
 	11000 12650 11000 12250
+$Comp
+L CONN_3 P200
+U 1 1 511D3A83
+P 14750 11850
+F 0 "P200" V 14700 11850 40  0000 C CNN
+F 1 "CONN_3" V 14800 11850 40  0000 C CNN
+	1    14750 11850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +12V #PWR082
+U 1 1 511D3A9A
+P 14650 12200
+F 0 "#PWR082" H 14650 12150 20  0001 C CNN
+F 1 "+12V" H 14650 12300 30  0000 C CNN
+	1    14650 12200
+	-1   0    0    1   
+$EndComp
+$Comp
+L DGND #PWR083
+U 1 1 511D3AA0
+P 14750 12200
+F 0 "#PWR083" H 14750 12200 40  0001 C CNN
+F 1 "DGND" H 14750 12130 40  0000 C CNN
+	1    14750 12200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR084
+U 1 1 511D3AA6
+P 14850 12200
+F 0 "#PWR084" H 14850 12290 20  0001 C CNN
+F 1 "+5V" H 14850 12290 30  0000 C CNN
+	1    14850 12200
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	15000 11600 15000 13700
 $EndSCHEMATC
