@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-nov-02)-testing date = mer. 10 avril 2013 13:27:33 CEST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = mer. 10 avril 2013 21:34:17 CEST
 
 BeginCmp
 TimeStamp = /5067601F;
@@ -255,84 +255,98 @@ EndCmp
 BeginCmp
 TimeStamp = /50671F12;
 Reference = R1;
-ValeurCmp = R;
+ValeurCmp = 2KR;
 IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /50671F03;
 Reference = R2;
-ValeurCmp = R;
+ValeurCmp = 4.7KR;
 IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /5067144B;
 Reference = R3;
-ValeurCmp = R;
+ValeurCmp = 2KR;
 IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /50659F9F;
 Reference = R4;
-ValeurCmp = R;
+ValeurCmp = 10KR;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5165BE3E;
+Reference = R5;
+ValeurCmp = 10KR;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5165BE57;
+Reference = R6;
+ValeurCmp = 10KR;
 IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /51150759;
 Reference = R11;
-ValeurCmp = R;
+ValeurCmp = 2KR;
 IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /51150EEF;
 Reference = R21;
-ValeurCmp = R;
+ValeurCmp = 2KR;
 IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /51151110;
 Reference = R31;
-ValeurCmp = R;
+ValeurCmp = 2KR;
 IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /51151157;
 Reference = R41;
-ValeurCmp = R;
+ValeurCmp = 2KR;
 IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /51151239;
 Reference = R51;
-ValeurCmp = R;
+ValeurCmp = 2KR;
 IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /51151280;
 Reference = R61;
-ValeurCmp = R;
+ValeurCmp = 2KR;
 IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /511512CE;
 Reference = R71;
-ValeurCmp = R;
+ValeurCmp = 2KR;
 IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /51151315;
 Reference = R81;
-ValeurCmp = R;
+ValeurCmp = 2KR;
 IdModule  = SM1206;
 EndCmp
 
