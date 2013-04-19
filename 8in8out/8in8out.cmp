@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = mer. 10 avril 2013 21:34:17 CEST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = ven. 19 avril 2013 21:18:57 CEST
 
 BeginCmp
 TimeStamp = /5067601F;
@@ -186,7 +186,7 @@ BeginCmp
 TimeStamp = /5067198C;
 Reference = P105;
 ValeurCmp = CONN_2;
-IdModule  = MOL_CONN_2_VH;
+IdModule  = MOL_CONN_2_MINI;
 EndCmp
 
 BeginCmp
