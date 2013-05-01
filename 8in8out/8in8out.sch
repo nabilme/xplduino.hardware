@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date mer. 10 avril 2013 22:05:12 CEST
+EESchema Schematic File Version 2  date sam. 27 avril 2013 16:03:43 CEST
 LIBS:g5la-1-12vdc
 LIBS:power
 LIBS:device
