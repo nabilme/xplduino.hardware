@@ -1,12 +1,17 @@
-update=jeu. 25 avril 2013 22:12:10 CEST
+update=mer. 08 mai 2013 12:48:32 CEST
 version=1
 last_client=pcbnew
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=
-NetFmtName=
+NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100
 RptLab=1
@@ -44,29 +49,25 @@ LibName29=contrib
 LibName30=valves
 LibName31=components/special
 LibName32=components/ULN2803
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=8in8outExt.net
 UseCmpFile=1
-PadDrill=0
-PadSizeH=1,59766
-PadSizeV=1,80086
-PcbTextSizeV=1
-PcbTextSizeH=1
-PcbTextThickness=0,3
-ModuleTextSizeV=1
-ModuleTextSizeH=1
-ModuleTextSizeThickness=0,15
-SolderMaskClearance=0
-SolderMaskMinWidth=0
-DrawSegmentWidth=0,2
-BoardOutlineThickness=0,15
-ModuleOutlineThickness=0,15
+PadDrill="    0,000000"
+PadDrillOvalY="    0,000000"
+PadSizeH="    1,597660"
+PadSizeV="    1,800860"
+PcbTextSizeV="    1,000000"
+PcbTextSizeH="    1,000000"
+PcbTextThickness="    0,300000"
+ModuleTextSizeV="    1,000000"
+ModuleTextSizeH="    1,000000"
+ModuleTextSizeThickness="    0,150000"
+SolderMaskClearance="    0,000000"
+SolderMaskMinWidth="    0,000000"
+DrawSegmentWidth="    0,200000"
+BoardOutlineThickness="    0,150000"
+ModuleOutlineThickness="    0,150000"
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets
@@ -87,3 +88,4 @@ LibName15=components/SOIC-18
 LibName16=components/CONN2x10
 LibName17=components/MicroSwitch
 LibName18=components/logo_xplduino
+LibName19=components/ohw-logo

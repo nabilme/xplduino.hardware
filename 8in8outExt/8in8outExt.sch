@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date jeu. 25 avril 2013 21:42:33 CEST
+EESchema Schematic File Version 2  date sam. 27 avril 2013 16:04:18 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,12 +35,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "8in 8relays I2C board Extension"
 Date "25 apr 2013"
 Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Comp "XPLDUINO project"
+Comment1 "GNU GPL v2"
+Comment2 "Home automation Open Source "
 Comment3 ""
 Comment4 ""
 $EndDescr
