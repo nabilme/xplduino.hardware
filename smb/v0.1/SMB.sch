@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date mar. 14 mai 2013 12:19:51 CEST
+EESchema Schematic File Version 2  date mar. 14 mai 2013 13:16:05 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -1409,4 +1409,69 @@ Text Notes 8450 3100 0    60   ~ 0
 I2C connector\nto external boards
 Text Notes 9900 3100 0    60   ~ 0
 I2C connector\nto internal boards
+$Comp
+L CONN_8 P108
+U 1 1 51921C93
+P 7500 950
+F 0 "P108" V 7470 950 60  0000 C CNN
+F 1 "CONN_7" V 7570 950 60  0000 C CNN
+F 2 "" H 7500 950 60  0001 C CNN
+F 3 "" H 7500 950 60  0001 C CNN
+	1    7500 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 51921C99
+P 7250 1450
+F 0 "#PWR?" H 7250 1450 30  0001 C CNN
+F 1 "GND" H 7250 1380 30  0001 C CNN
+F 2 "" H 7250 1450 60  0001 C CNN
+F 3 "" H 7250 1450 60  0001 C CNN
+	1    7250 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 51921C9F
+P 6950 1300
+F 0 "#PWR?" H 6950 1390 20  0001 C CNN
+F 1 "+5V" H 6950 1390 30  0000 C CNN
+F 2 "" H 6950 1300 60  0001 C CNN
+F 3 "" H 6950 1300 60  0001 C CNN
+	1    6950 1300
+	1    0    0    -1  
+$EndComp
+Text GLabel 7550 1400 3    25   BiDi ~ 0
+SCL
+Text GLabel 7450 1400 3    25   BiDi ~ 0
+SDA
+Text Notes 7150 750  0    60   ~ 0
+I2C slot
+Text GLabel 7850 1450 3    25   BiDi ~ 0
+clock
+Wire Wire Line
+	7250 1300 7250 1450
+Wire Wire Line
+	6950 1300 6950 1550
+Wire Wire Line
+	6950 1550 7350 1550
+Wire Wire Line
+	7350 1550 7350 1300
+Wire Wire Line
+	7450 1400 7450 1300
+Wire Wire Line
+	7550 1300 7550 1400
+NoConn ~ 7850 1300
+NoConn ~ 7750 1300
+NoConn ~ 7650 1300
+NoConn ~ 7150 1300
+Wire Notes Line
+	6800 600  6800 1700
+Wire Notes Line
+	6800 1700 8000 1700
+Wire Notes Line
+	8000 1700 8000 600 
+Wire Notes Line
+	8000 600  6800 600 
 $EndSCHEMATC
