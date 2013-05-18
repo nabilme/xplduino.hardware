@@ -1,48 +1,6 @@
-update=lun. 13 mai 2013 21:07:34 CEST
+update=sam. 18 mai 2013 18:51:49 CEST
 version=1
-last_client=eeschema
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
-[pcbnew]
-version=1
-PadDrlX=0
-PadDimH=709
-PadDimV=433
-BoardThickness=630
-TxtPcbV=800
-TxtPcbH=600
-TxtModV=600
-TxtModH=600
-TxtModW=120
-VEgarde=100
-DrawLar=150
-EdgeLar=150
-TxtLar=120
-MSegLar=30
-LastNetListRead=SMB.net
-[pcbnew/libraries]
-LibDir=components
-LibName1=sockets
-LibName2=connect
-LibName3=discret
-LibName4=pin_array
-LibName5=divers
-LibName6=libcms
-LibName7=display
-LibName8=valves
-LibName9=led
-LibName10=dip_sockets
-LibName11=DM3CS-SF
-LibName12=HE10-2x3
-LibName13=molex_2
-LibName14=B290-13-F
-LibName15=SRF1260-150M
-LibName16=HR911105_RJ45
-LibName17=ALPS_SWITCHS
-LibName18=logo_xplduino
+last_client=pcbnew
 [general]
 version=1
 [eeschema]
@@ -93,3 +51,48 @@ LibName36=usd_conn
 LibName37=74lvc1g126gw
 LibName38=dual_self
 LibName39=ALPS_SWITCHS
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
+[pcbnew]
+version=1
+LastNetListRead=SMB.net
+UseCmpFile=1
+PadDrill="    0,000000"
+PadDrillOvalY="    0,000000"
+PadSizeH="    5,499100"
+PadSizeV="    1,998980"
+PcbTextSizeV="    2,032000"
+PcbTextSizeH="    1,524000"
+PcbTextThickness="    0,304800"
+ModuleTextSizeV="    1,524000"
+ModuleTextSizeH="    1,524000"
+ModuleTextSizeThickness="    0,304800"
+SolderMaskClearance="    0,254000"
+SolderMaskMinWidth="    0,000000"
+DrawSegmentWidth="    0,381000"
+BoardOutlineThickness="    0,381000"
+ModuleOutlineThickness="    0,076200"
+[pcbnew/libraries]
+LibDir=components
+LibName1=sockets
+LibName2=connect
+LibName3=discret
+LibName4=pin_array
+LibName5=divers
+LibName6=libcms
+LibName7=display
+LibName8=valves
+LibName9=led
+LibName10=dip_sockets
+LibName11=DM3CS-SF
+LibName12=HE10-2x3
+LibName13=molex_2
+LibName14=B290-13-F
+LibName15=SRF1260-150M
+LibName16=HR911105_RJ45
+LibName17=ALPS_SWITCHS
+LibName18=logo_xplduino
+LibName19=CRYSTAL_CMS
