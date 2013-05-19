@@ -1,6 +1,6 @@
-update=sam. 18 mai 2013 18:51:49 CEST
+update=dim. 19 mai 2013 11:26:14 CEST
 version=1
-last_client=pcbnew
+last_client=cvpcb
 [general]
 version=1
 [eeschema]
@@ -51,11 +51,6 @@ LibName36=usd_conn
 LibName37=74lvc1g126gw
 LibName38=dual_self
 LibName39=ALPS_SWITCHS
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=SMB.net
@@ -76,7 +71,6 @@ DrawSegmentWidth="    0,381000"
 BoardOutlineThickness="    0,381000"
 ModuleOutlineThickness="    0,076200"
 [pcbnew/libraries]
-LibDir=components
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -96,3 +90,10 @@ LibName16=HR911105_RJ45
 LibName17=ALPS_SWITCHS
 LibName18=logo_xplduino
 LibName19=CRYSTAL_CMS
+LibName20=SOT753
+LibDir=components
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms

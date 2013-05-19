@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = sam. 18 mai 2013 19:00:45 CEST
+Cmp-Mod V01 Created by CvPcb (2012-nov-02)-testing date = dim. 19 mai 2013 11:32:59 CEST
 
 BeginCmp
 TimeStamp = /4FA01278;
@@ -564,28 +564,28 @@ BeginCmp
 TimeStamp = /4FF04C39/4FF07632;
 Reference = U203;
 ValeurCmp = 74LVC1G126GW;
-IdModule  = SOT353;
+IdModule  = SOT753;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FF04C39/4FF07749;
 Reference = U204;
 ValeurCmp = 74LVC1G126GW;
-IdModule  = SOT353;
+IdModule  = SOT753;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FF04C39/4FF08D87;
 Reference = U205;
 ValeurCmp = 74LVC1G126GW;
-IdModule  = SOT353;
+IdModule  = SOT753;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FF04C39/4FF08F14;
 Reference = U206;
 ValeurCmp = 74LVC1G126GW;
-IdModule  = SOT353;
+IdModule  = SOT753;
 EndCmp
 
 BeginCmp
