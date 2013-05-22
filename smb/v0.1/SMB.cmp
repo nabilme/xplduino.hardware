@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-nov-02)-testing date = dim. 19 mai 2013 11:32:59 CEST
+Cmp-Mod V01 Created by CvPcb (2012-nov-02)-testing date = mer. 22 mai 2013 21:16:55 CEST
 
 BeginCmp
 TimeStamp = /4FA01278;
@@ -249,7 +249,7 @@ BeginCmp
 TimeStamp = /5191E77F;
 Reference = D102;
 ValeurCmp = LED;
-IdModule  = LED-0603;
+IdModule  = LED-1206;
 EndCmp
 
 BeginCmp
@@ -264,6 +264,27 @@ TimeStamp = /503DF9F0;
 Reference = GS1;
 ValeurCmp = GS2;
 IdModule  = GS2;
+EndCmp
+
+BeginCmp
+TimeStamp = /519D1DDC;
+Reference = GS2;
+ValeurCmp = GS2;
+IdModule  = GS2;
+EndCmp
+
+BeginCmp
+TimeStamp = /519D1E22;
+Reference = GS3;
+ValeurCmp = GS2;
+IdModule  = GS2;
+EndCmp
+
+BeginCmp
+TimeStamp = /519CCC9F;
+Reference = IC1;
+ValeurCmp = SP3485CN;
+IdModule  = SO8E;
 EndCmp
 
 BeginCmp
@@ -379,10 +400,10 @@ IdModule  = HE10-6;
 EndCmp
 
 BeginCmp
-TimeStamp = /5191F831;
+TimeStamp = /519CC738;
 Reference = P107;
-ValeurCmp = CONN_7;
-IdModule  = HE10-6;
+ValeurCmp = CONN_3;
+IdModule  = MOL_CONN_5_MINI;
 EndCmp
 
 BeginCmp
@@ -403,7 +424,28 @@ BeginCmp
 TimeStamp = /5191E779;
 Reference = R1;
 ValeurCmp = 3.3kR;
-IdModule  = SM0603;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /519CCDC9;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /519D1DBC;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /519D1DC2;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
