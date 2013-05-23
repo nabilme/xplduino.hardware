@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date mer. 22 mai 2013 21:15:44 CEST
+EESchema Schematic File Version 2  date jeu. 23 mai 2013 13:21:39 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,7 +45,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
 Title "Short Main Board - SMB controler"
-Date "22 may 2013"
+Date "23 may 2013"
 Rev "0"
 Comp "XPLDUINO project"
 Comment1 "GNU GPL v2"
