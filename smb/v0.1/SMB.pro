@@ -1,8 +1,54 @@
-update=dim. 19 mai 2013 11:26:14 CEST
+update=lun. 27 mai 2013 22:24:00 CEST
 version=1
-last_client=cvpcb
+last_client=eeschema
 [general]
 version=1
+[pcbnew]
+version=1
+LastNetListRead=SMB.net
+UseCmpFile=1
+PadDrill="    0,000000"
+PadDrillOvalY="    0,000000"
+PadSizeH="    5,499100"
+PadSizeV="    1,998980"
+PcbTextSizeV="    2,032000"
+PcbTextSizeH="    1,524000"
+PcbTextThickness="    0,304800"
+ModuleTextSizeV="    1,524000"
+ModuleTextSizeH="    1,524000"
+ModuleTextSizeThickness="    0,304800"
+SolderMaskClearance="    0,254000"
+SolderMaskMinWidth="    0,000000"
+DrawSegmentWidth="    0,381000"
+BoardOutlineThickness="    0,381000"
+ModuleOutlineThickness="    0,076200"
+[pcbnew/libraries]
+LibName1=sockets
+LibName2=connect
+LibName3=discret
+LibName4=pin_array
+LibName5=divers
+LibName6=libcms
+LibName7=display
+LibName8=valves
+LibName9=led
+LibName10=dip_sockets
+LibName11=DM3CS-SF
+LibName12=HE10-2x3
+LibName13=molex_2
+LibName14=B290-13-F
+LibName15=SRF1260-150M
+LibName16=HR911105_RJ45
+LibName17=ALPS_SWITCHS
+LibName18=logo_xplduino
+LibName19=CRYSTAL_CMS
+LibName20=SOT753
+LibDir=components
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=components
@@ -51,49 +97,4 @@ LibName36=usd_conn
 LibName37=74lvc1g126gw
 LibName38=dual_self
 LibName39=ALPS_SWITCHS
-[pcbnew]
-version=1
-LastNetListRead=SMB.net
-UseCmpFile=1
-PadDrill="    0,000000"
-PadDrillOvalY="    0,000000"
-PadSizeH="    5,499100"
-PadSizeV="    1,998980"
-PcbTextSizeV="    2,032000"
-PcbTextSizeH="    1,524000"
-PcbTextThickness="    0,304800"
-ModuleTextSizeV="    1,524000"
-ModuleTextSizeH="    1,524000"
-ModuleTextSizeThickness="    0,304800"
-SolderMaskClearance="    0,254000"
-SolderMaskMinWidth="    0,000000"
-DrawSegmentWidth="    0,381000"
-BoardOutlineThickness="    0,381000"
-ModuleOutlineThickness="    0,076200"
-[pcbnew/libraries]
-LibName1=sockets
-LibName2=connect
-LibName3=discret
-LibName4=pin_array
-LibName5=divers
-LibName6=libcms
-LibName7=display
-LibName8=valves
-LibName9=led
-LibName10=dip_sockets
-LibName11=DM3CS-SF
-LibName12=HE10-2x3
-LibName13=molex_2
-LibName14=B290-13-F
-LibName15=SRF1260-150M
-LibName16=HR911105_RJ45
-LibName17=ALPS_SWITCHS
-LibName18=logo_xplduino
-LibName19=CRYSTAL_CMS
-LibName20=SOT753
-LibDir=components
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName40=max485

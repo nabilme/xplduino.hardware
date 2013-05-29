@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-nov-02)-testing date = mer. 22 mai 2013 21:16:55 CEST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = lun. 27 mai 2013 21:41:39 CEST
 
 BeginCmp
 TimeStamp = /4FA01278;
@@ -102,7 +102,7 @@ BeginCmp
 TimeStamp = /4F9D6DA9/4F9FEDA2;
 Reference = C208;
 ValeurCmp = 10uF;
-IdModule  = SM1206;
+IdModule  = SM1206POL;
 EndCmp
 
 BeginCmp
@@ -137,7 +137,7 @@ BeginCmp
 TimeStamp = /4FDE1C88/4FDE42D6;
 Reference = C213;
 ValeurCmp = 10uF;
-IdModule  = SM1206;
+IdModule  = SM1206POL;
 EndCmp
 
 BeginCmp
@@ -603,35 +603,7 @@ IdModule  = SOT223;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FF04C39/4FF07632;
-Reference = U203;
-ValeurCmp = 74LVC1G126GW;
-IdModule  = SOT753;
-EndCmp
-
-BeginCmp
-TimeStamp = /4FF04C39/4FF07749;
-Reference = U204;
-ValeurCmp = 74LVC1G126GW;
-IdModule  = SOT753;
-EndCmp
-
-BeginCmp
-TimeStamp = /4FF04C39/4FF08D87;
-Reference = U205;
-ValeurCmp = 74LVC1G126GW;
-IdModule  = SOT753;
-EndCmp
-
-BeginCmp
-TimeStamp = /4FF04C39/4FF08F14;
-Reference = U206;
-ValeurCmp = 74LVC1G126GW;
-IdModule  = SOT753;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F9D6DA9/4FDE1879;
+TimeStamp = /4FF04C39/519F255C;
 Reference = U301;
 ValeurCmp = 74HC08;
 IdModule  = SO14E;
@@ -642,6 +614,13 @@ TimeStamp = /4FDE1C88/4FECC5EE;
 Reference = U302;
 ValeurCmp = MP2562DS;
 IdModule  = SO8E;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FF04C39/519F2586;
+Reference = U303;
+ValeurCmp = 74HC08;
+IdModule  = SO14E;
 EndCmp
 
 BeginCmp
