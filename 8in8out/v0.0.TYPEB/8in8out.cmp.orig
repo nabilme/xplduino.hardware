@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = dim. 02 juin 2013 15:30:14 CEST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = sam. 01 juin 2013 21:47:15 CEST
 
 BeginCmp
 TimeStamp = /5067601F;
@@ -10,13 +10,6 @@ EndCmp
 BeginCmp
 TimeStamp = /5067602E;
 Reference = C2;
-ValeurCmp = C;
-IdModule  = SM1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /51AB4C03;
-Reference = C3;
 ValeurCmp = C;
 IdModule  = SM1206;
 EndCmp
@@ -81,56 +74,56 @@ BeginCmp
 TimeStamp = /506593E3;
 Reference = K110;
 ValeurCmp = G5T-1-12VDC;
-IdModule  = LK-T;
+IdModule  = G5SB;
 EndCmp
 
 BeginCmp
 TimeStamp = /5115128F;
 Reference = K120;
 ValeurCmp = G5T-1-12VDC;
-IdModule  = LK-T;
+IdModule  = G5SB;
 EndCmp
 
 BeginCmp
 TimeStamp = /5115132F;
 Reference = K130;
 ValeurCmp = G5T-1-12VDC;
-IdModule  = LK-T;
+IdModule  = G5SB;
 EndCmp
 
 BeginCmp
 TimeStamp = /51151380;
 Reference = K140;
 ValeurCmp = G5T-1-12VDC;
-IdModule  = LK-T;
+IdModule  = G5SB;
 EndCmp
 
 BeginCmp
 TimeStamp = /51151515;
 Reference = K150;
 ValeurCmp = G5T-1-12VDC;
-IdModule  = LK-T;
+IdModule  = G5SB;
 EndCmp
 
 BeginCmp
 TimeStamp = /51151566;
 Reference = K160;
 ValeurCmp = G5T-1-12VDC;
-IdModule  = LK-T;
+IdModule  = G5SB;
 EndCmp
 
 BeginCmp
 TimeStamp = /511515B7;
 Reference = K170;
 ValeurCmp = G5T-1-12VDC;
-IdModule  = LK-T;
+IdModule  = G5SB;
 EndCmp
 
 BeginCmp
 TimeStamp = /51151608;
 Reference = K180;
 ValeurCmp = G5T-1-12VDC;
-IdModule  = LK-T;
+IdModule  = G5SB;
 EndCmp
 
 BeginCmp
