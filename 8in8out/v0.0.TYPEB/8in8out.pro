@@ -1,4 +1,4 @@
-update=ven. 31 mai 2013 13:08:16 CEST
+update=lun. 03 juin 2013 19:41:34 CEST
 version=1
 last_client=pcbnew
 [general]
@@ -94,3 +94,4 @@ LibName20=components/TO-220
 LibName21=components/SOIC-18
 LibName22=components/ohw-logo
 LibName23=components/Relay_LKT
+LibName24=components/RJ45_basic
