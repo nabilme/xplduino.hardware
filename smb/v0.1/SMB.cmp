@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = lun. 27 mai 2013 21:41:39 CEST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = lun. 03 juin 2013 19:38:04 CEST
 
 BeginCmp
 TimeStamp = /4FA01278;
@@ -281,9 +281,9 @@ IdModule  = GS2;
 EndCmp
 
 BeginCmp
-TimeStamp = /519CCC9F;
+TimeStamp = /51A3C0F6;
 Reference = IC1;
-ValeurCmp = SP3485CN;
+ValeurCmp = MAX485;
 IdModule  = SO8E;
 EndCmp
 
@@ -298,7 +298,7 @@ BeginCmp
 TimeStamp = /5191DF33;
 Reference = J101;
 ValeurCmp = RJ45;
-IdModule  = RJ45_8;
+IdModule  = RJ45_BASIC;
 EndCmp
 
 BeginCmp
@@ -493,7 +493,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F9D6DA9/4F9FEDEE;
 Reference = R201;
-ValeurCmp = 2k7;
+ValeurCmp = 2k32;
 IdModule  = SM1206;
 EndCmp
 
