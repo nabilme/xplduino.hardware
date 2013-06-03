@@ -3996,7 +3996,7 @@
   (gr_line (start 123 49.25) (end 123 77.25) (angle 90) (layer Cmts.User) (width 0.381))
   (gr_line (start 31 100) (end 135 100) (angle 90) (layer Cmts.User) (width 0.381))
   (gr_line (start 31 98) (end 135 98) (angle 90) (layer Cmts.User) (width 0.381))
-  (gr_text "Tiny\nRTC" (at 126.75 72.5) (layer F.SilkS) (tstamp 51A51513)
+  (gr_text "Tiny\nRTC" (at 117.856 72.39) (layer F.SilkS) (tstamp 51A51513)
     (effects (font (size 2.032 1.524) (thickness 0.3048)))
   )
   (gr_line (start 133 114.5) (end 133 113) (angle 90) (layer Cmts.User) (width 0.381))
