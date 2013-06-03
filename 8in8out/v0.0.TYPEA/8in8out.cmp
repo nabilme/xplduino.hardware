@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = ven. 19 avril 2013 21:18:57 CEST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = lun. 03 juin 2013 19:45:35 CEST
 
 BeginCmp
 TimeStamp = /5067601F;
@@ -53,14 +53,14 @@ BeginCmp
 TimeStamp = /51151B15;
 Reference = J1;
 ValeurCmp = RJ45;
-IdModule  = RJ45_8;
+IdModule  = RJ45_BASIC;
 EndCmp
 
 BeginCmp
 TimeStamp = /51151E94;
 Reference = J2;
 ValeurCmp = RJ45;
-IdModule  = RJ45_8;
+IdModule  = RJ45_BASIC;
 EndCmp
 
 BeginCmp
