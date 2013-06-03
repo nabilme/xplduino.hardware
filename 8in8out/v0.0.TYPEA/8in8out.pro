@@ -1,4 +1,4 @@
-update=jeu. 09 mai 2013 08:50:24 CEST
+update=lun. 03 juin 2013 19:45:25 CEST
 version=1
 last_client=pcbnew
 [general]
@@ -93,3 +93,4 @@ LibName19=components/logo_xplduino
 LibName20=components/TO-220
 LibName21=components/SOIC-18
 LibName22=components/ohw-logo
+LibName23=components/RJ45_basic
