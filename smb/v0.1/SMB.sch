@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date mar. 28 mai 2013 22:08:00 CEST
+EESchema Schematic File Version 2  date mar. 04 juin 2013 12:47:30 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -46,7 +46,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "Short Main Board - SMB controller"
-Date "28 may 2013"
+Date "4 jun 2013"
 Rev "0"
 Comp "XPLDUINO project"
 Comment1 "GNU GPL v2"
@@ -75,9 +75,9 @@ Text Label 6500 2650 2    25   ~ 0
 ADC2
 Text Label 6500 2550 2    25   ~ 0
 ADC1
-Text GLabel 8700 4950 3    25   BiDi ~ 0
+Text GLabel 8600 4950 3    25   BiDi ~ 0
 SCL
-Text GLabel 8500 4950 3    25   BiDi ~ 0
+Text GLabel 8400 4950 3    25   BiDi ~ 0
 SDA
 Text GLabel 8800 4950 3    25   Output ~ 0
 /INT_I2C
@@ -602,15 +602,15 @@ $EndComp
 $Comp
 L GS2 GS1
 U 1 1 503DF9F0
-P 6700 5650
-F 0 "GS1" H 6800 5800 50  0000 C CNN
-F 1 "GS2" H 6800 5501 40  0000 C CNN
-F 2 "" H 6700 5650 60  0001 C CNN
-F 3 "" H 6700 5650 60  0001 C CNN
-	1    6700 5650
+P 6700 4650
+F 0 "GS1" H 6800 4800 50  0000 C CNN
+F 1 "GS2" H 6800 4501 40  0000 C CNN
+F 2 "" H 6700 4650 60  0001 C CNN
+F 3 "" H 6700 4650 60  0001 C CNN
+	1    6700 4650
 	0    1    1    0   
 $EndComp
-Text GLabel 6900 5650 2    25   Output ~ 0
+Text GLabel 6900 4650 2    25   Output ~ 0
 /SPARE
 Text GLabel 10750 4450 3    25   Output ~ 0
 /SPARE
@@ -670,7 +670,7 @@ Text GLabel 8450 1550 0    25   Input ~ 0
 RX0
 Text GLabel 9350 1450 2    25   Output ~ 0
 /RESET
-Text Notes 9800 2550 0    60   ~ 0
+Text Notes 8750 2550 0    60   ~ 0
 TinyRTC slot
 $Comp
 L RJ45 J101
@@ -686,23 +686,23 @@ $EndComp
 $Comp
 L GND #PWR027
 U 1 1 5191DF48
-P 8400 4950
-F 0 "#PWR027" H 8400 4950 30  0001 C CNN
-F 1 "GND" H 8400 4880 30  0001 C CNN
-F 2 "" H 8400 4950 60  0001 C CNN
-F 3 "" H 8400 4950 60  0001 C CNN
-	1    8400 4950
+P 8500 4950
+F 0 "#PWR027" H 8500 4950 30  0001 C CNN
+F 1 "GND" H 8500 4880 30  0001 C CNN
+F 2 "" H 8500 4950 60  0001 C CNN
+F 3 "" H 8500 4950 60  0001 C CNN
+	1    8500 4950
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR028
 U 1 1 5191DF50
-P 8600 4950
-F 0 "#PWR028" H 8600 4950 30  0001 C CNN
-F 1 "GND" H 8600 4880 30  0001 C CNN
-F 2 "" H 8600 4950 60  0001 C CNN
-F 3 "" H 8600 4950 60  0001 C CNN
-	1    8600 4950
+P 8700 4950
+F 0 "#PWR028" H 8700 4950 30  0001 C CNN
+F 1 "GND" H 8700 4880 30  0001 C CNN
+F 2 "" H 8700 4950 60  0001 C CNN
+F 3 "" H 8700 4950 60  0001 C CNN
+	1    8700 4950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -796,10 +796,10 @@ Text GLabel 6500 4450 2    25   BiDi ~ 0
 PC2
 Text GLabel 6500 4550 2    25   BiDi ~ 0
 PC3
-Text GLabel 6500 4650 2    25   BiDi ~ 0
-PC4
-Text GLabel 6500 4850 2    25   BiDi ~ 0
-PC6
+Text GLabel 6500 4750 2    25   BiDi ~ 0
+PC5
+Text GLabel 6500 5650 2    25   BiDi ~ 0
+PD5
 Wire Wire Line
 	3150 2250 3150 2350
 Wire Wire Line
@@ -1044,21 +1044,21 @@ Wire Wire Line
 Wire Wire Line
 	6450 4850 6500 4850
 Text GLabel 6500 5750 2    25   BiDi ~ 0
-DS
+PD6
 Wire Wire Line
 	6450 5550 6500 5550
 Wire Wire Line
 	6450 5650 6500 5650
-Text GLabel 9200 5700 2    25   BiDi ~ 0
-PC6
-Text GLabel 8400 5800 0    25   BiDi ~ 0
-PC5
 Text GLabel 9200 5800 2    25   BiDi ~ 0
-PC4
-Text GLabel 8400 5900 0    25   BiDi ~ 0
 PC3
-Text GLabel 9200 3200 3    25   BiDi ~ 0
+Text GLabel 8400 5900 0    25   BiDi ~ 0
+PD5
+Text GLabel 9200 5700 2    25   BiDi ~ 0
 PC2
+Text GLabel 8400 5800 0    25   BiDi ~ 0
+PD6
+Text GLabel 9200 3200 3    25   BiDi ~ 0
+DS
 Text GLabel 6500 3350 2    25   BiDi ~ 0
 PB0
 Text GLabel 2450 6250 0    25   BiDi ~ 0
@@ -1148,7 +1148,7 @@ Text GLabel 9100 3200 3    25   BiDi ~ 0
 SCL
 Text GLabel 9000 3200 3    25   BiDi ~ 0
 SDA
-Text Notes 8800 2550 0    60   ~ 0
+Text Notes 9850 2550 0    60   ~ 0
 I2C slot
 Wire Wire Line
 	8800 3100 8800 3250
@@ -1168,10 +1168,10 @@ Wire Wire Line
 	900  1950 900  2000
 Wire Wire Line
 	900  2000 1000 2000
-Text GLabel 6500 4750 2    25   Input ~ 0
-PC5
-Text GLabel 10250 3200 3    25   Output ~ 0
+Text GLabel 6500 4850 2    25   Input ~ 0
 DS
+Text GLabel 10250 3200 3    25   Output ~ 0
+PC5
 Wire Wire Line
 	10250 3100 10250 3200
 $Comp
