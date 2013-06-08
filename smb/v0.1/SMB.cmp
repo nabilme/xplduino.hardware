@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = lun. 03 juin 2013 19:38:04 CEST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = sam. 08 juin 2013 07:50:56 CEST
 
 BeginCmp
 TimeStamp = /4FA01278;
@@ -288,6 +288,13 @@ IdModule  = SO8E;
 EndCmp
 
 BeginCmp
+TimeStamp = /51B20C80;
+Reference = IC2;
+ValeurCmp = DS2482-100S;
+IdModule  = 1wire-SO08;
+EndCmp
+
+BeginCmp
 TimeStamp = /4FC7D32E;
 Reference = IC101;
 ValeurCmp = ATMEGA1284-A;
@@ -403,7 +410,7 @@ BeginCmp
 TimeStamp = /519CC738;
 Reference = P107;
 ValeurCmp = CONN_3;
-IdModule  = MOL_CONN_5_MINI;
+IdModule  = MOL_CONN_3_MINI;
 EndCmp
 
 BeginCmp
@@ -411,6 +418,20 @@ TimeStamp = /51933CF3;
 Reference = P108;
 ValeurCmp = CONN_5;
 IdModule  = PIN_ARRAY_5x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B2CA09;
+Reference = P109;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B21100;
+Reference = P110;
+ValeurCmp = CONN_3;
+IdModule  = MOL_CONN_3_MINI;
 EndCmp
 
 BeginCmp
@@ -487,6 +508,13 @@ BeginCmp
 TimeStamp = /500C6C3A;
 Reference = R106;
 ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B21C17;
+Reference = R200;
+ValeurCmp = 4.7k;
 IdModule  = SM1206;
 EndCmp
 

@@ -1,4 +1,4 @@
-update=lun. 03 juin 2013 19:36:37 CEST
+update=ven. 07 juin 2013 18:45:02 CEST
 version=1
 last_client=pcbnew
 [general]
@@ -57,6 +57,7 @@ LibName37=74lvc1g126gw
 LibName38=dual_self
 LibName39=ALPS_SWITCHS
 LibName40=max485
+LibName41=1wire
 [pcbnew]
 version=1
 LastNetListRead=SMB.net
@@ -99,3 +100,4 @@ LibName18=logo_xplduino
 LibName19=CRYSTAL_CMS
 LibName20=SOT753
 LibName21=RJ45_basic
+LibName22=1wire
