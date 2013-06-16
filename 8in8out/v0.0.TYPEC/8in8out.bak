@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date sam. 01 juin 2013 17:55:48 CEST
+EESchema Schematic File Version 2  date dim. 02 juin 2013 15:15:57 CEST
 LIBS:g5la-1-12vdc
 LIBS:power
 LIBS:device
@@ -39,7 +39,7 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "8in 8relays I2C board"
-Date "1 jun 2013"
+Date "2 jun 2013"
 Rev "V0.2"
 Comp "XPLDUINO project"
 Comment1 "GNU GPL v2"
@@ -424,23 +424,23 @@ $EndComp
 $Comp
 L C C1
 U 1 1 5067601F
-P 10550 3650
-F 0 "C1" H 10600 3750 50  0000 L CNN
-F 1 "C" H 10600 3550 50  0000 L CNN
-F 2 "" H 10550 3650 60  0001 C CNN
-F 3 "" H 10550 3650 60  0001 C CNN
-	1    10550 3650
+P 10450 3650
+F 0 "C1" H 10500 3750 50  0000 L CNN
+F 1 "C" H 10500 3550 50  0000 L CNN
+F 2 "" H 10450 3650 60  0001 C CNN
+F 3 "" H 10450 3650 60  0001 C CNN
+	1    10450 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C2
 U 1 1 5067602E
-P 10800 3650
-F 0 "C2" H 10850 3750 50  0000 L CNN
-F 1 "C" H 10850 3550 50  0000 L CNN
-F 2 "" H 10800 3650 60  0001 C CNN
-F 3 "" H 10800 3650 60  0001 C CNN
-	1    10800 3650
+P 10700 3650
+F 0 "C2" H 10750 3750 50  0000 L CNN
+F 1 "C" H 10750 3550 50  0000 L CNN
+F 2 "" H 10700 3650 60  0001 C CNN
+F 3 "" H 10700 3650 60  0001 C CNN
+	1    10700 3650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1046,16 +1046,9 @@ Wire Notes Line
 Wire Wire Line
 	10450 3350 10450 3450
 Wire Wire Line
-	10450 3450 10900 3450
-Connection ~ 10550 3450
-Wire Wire Line
 	10900 3450 10900 3300
-Connection ~ 10800 3450
 Wire Wire Line
 	10700 3300 10700 3450
-Connection ~ 10700 3450
-Wire Wire Line
-	10550 3850 10800 3850
 Wire Wire Line
 	10700 3850 10700 3950
 Connection ~ 10700 3850
@@ -2199,4 +2192,22 @@ F 3 "" H 14350 6550 60  0000 C CNN
 	1    14350 6550
 	1    0    0    -1  
 $EndComp
+$Comp
+L C C3
+U 1 1 51AB4892
+P 10900 3650
+F 0 "C3" H 10950 3750 50  0000 L CNN
+F 1 "C" H 10950 3550 50  0000 L CNN
+F 2 "" H 10900 3650 60  0001 C CNN
+F 3 "" H 10900 3650 60  0001 C CNN
+	1    10900 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 3850 10900 3850
+Wire Wire Line
+	10450 3400 10900 3400
+Connection ~ 10700 3400
+Connection ~ 10450 3400
+Connection ~ 10900 3400
 $EndSCHEMATC
