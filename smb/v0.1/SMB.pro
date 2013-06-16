@@ -1,13 +1,8 @@
-update=ven. 07 juin 2013 18:45:02 CEST
+update=dim. 09 juin 2013 10:59:22 CEST
 version=1
 last_client=pcbnew
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [eeschema]
 version=1
 LibDir=components
@@ -58,14 +53,19 @@ LibName38=dual_self
 LibName39=ALPS_SWITCHS
 LibName40=max485
 LibName41=1wire
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=SMB.net
 UseCmpFile=1
-PadDrill="    3,251200"
-PadDrillOvalY="    3,251200"
-PadSizeH="    3,649980"
-PadSizeV="    3,649980"
+PadDrill="    0,000000"
+PadDrillOvalY="    0,000000"
+PadSizeH="    0,660400"
+PadSizeV="    2,032000"
 PcbTextSizeV="    2,032000"
 PcbTextSizeH="    1,524000"
 PcbTextThickness="    0,304800"
@@ -101,3 +101,4 @@ LibName19=CRYSTAL_CMS
 LibName20=SOT753
 LibName21=RJ45_basic
 LibName22=1wire
+LibName23=CONN2x10
