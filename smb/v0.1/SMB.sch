@@ -958,19 +958,19 @@ F 3 "" H 9350 6050 60  0001 C CNN
 $EndComp
 Text GLabel 9250 5750 2    25   BiDi ~ 0
 PA3
-Text GLabel 8350 5850 0    25   BiDi ~ 0
+Text GLabel 8350 5950 0    25   BiDi ~ 0
 PA1
 Text GLabel 9250 5850 2    25   BiDi ~ 0
 PA2
-Text GLabel 8350 5950 0    25   BiDi ~ 0
+Text GLabel 8350 5850 0    25   BiDi ~ 0
 PA0
-Text GLabel 9800 5950 0    25   BiDi ~ 0
+Text GLabel 10600 5950 2    25   BiDi ~ 0
 PA5
 Text GLabel 10600 5850 2    25   BiDi ~ 0
 PA6
-Text GLabel 10600 6050 2    25   BiDi ~ 0
+Text GLabel 9800 5950 0    25   BiDi ~ 0
 PA7
-Text GLabel 10600 5950 2    25   BiDi ~ 0
+Text GLabel 10600 6050 2    25   BiDi ~ 0
 PA4
 Text Notes 6850 2100 0    60   ~ 0
 Front Panel Connector
@@ -1663,7 +1663,7 @@ Wire Wire Line
 	4400 6950 4150 6950
 Connection ~ 4150 6950
 Wire Wire Line
-	5800 6950 5750 6950
+	5600 6950 5800 6950
 Wire Wire Line
 	5750 6950 5750 7050
 Wire Wire Line
@@ -1706,14 +1706,46 @@ Wire Notes Line
 Wire Notes Line
 	11100 6650 11100 5850
 $Comp
-L +5V #PWR?
+L +5V #PWR051
 U 1 1 51BE1AAF
 P 8200 5650
-F 0 "#PWR?" H 8200 5740 20  0001 C CNN
+F 0 "#PWR051" H 8200 5740 20  0001 C CNN
 F 1 "+5V" H 8200 5740 30  0000 C CNN
 F 2 "" H 8200 5650 60  0001 C CNN
 F 3 "" H 8200 5650 60  0001 C CNN
 	1    8200 5650
 	1    0    0    -1  
 $EndComp
+$Comp
+L CONN_3 P2
+U 1 1 51C57E2C
+P 5500 7450
+F 0 "P2" V 5450 7450 50  0000 C CNN
+F 1 "CONN_3" V 5550 7450 40  0000 C CNN
+F 2 "" H 5500 7450 60  0001 C CNN
+F 3 "" H 5500 7450 60  0001 C CNN
+	1    5500 7450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 6850 5500 7100
+Connection ~ 5500 6850
+Wire Wire Line
+	5600 6950 5600 7100
+Connection ~ 5750 6950
+$Comp
+L +5V #PWR052
+U 1 1 51C581D7
+P 5400 7100
+F 0 "#PWR052" H 5400 7190 20  0001 C CNN
+F 1 "+5V" H 5400 7190 30  0000 C CNN
+F 2 "" H 5400 7100 60  0000 C CNN
+F 3 "" H 5400 7100 60  0000 C CNN
+	1    5400 7100
+	1    0    0    -1  
+$EndComp
+Text GLabel 9800 6150 0    25   BiDi ~ 0
+SDA
+Text GLabel 10600 6150 2    25   BiDi ~ 0
+SCL
 $EndSCHEMATC
