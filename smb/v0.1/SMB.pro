@@ -1,4 +1,4 @@
-update=dim. 09 juin 2013 10:59:22 CEST
+update=sam. 22 juin 2013 19:22:38 CEST
 version=1
 last_client=pcbnew
 [general]
@@ -62,10 +62,10 @@ EquName1=devcms
 version=1
 LastNetListRead=SMB.net
 UseCmpFile=1
-PadDrill="    0,000000"
-PadDrillOvalY="    0,000000"
-PadSizeH="    0,660400"
-PadSizeV="    2,032000"
+PadDrill="    3,048000"
+PadDrillOvalY="    3,048000"
+PadSizeH="    4,064000"
+PadSizeV="    4,064000"
 PcbTextSizeV="    2,032000"
 PcbTextSizeH="    1,524000"
 PcbTextThickness="    0,304800"
@@ -102,3 +102,4 @@ LibName20=SOT753
 LibName21=RJ45_basic
 LibName22=1wire
 LibName23=CONN2x10
+LibName24=ohw-logo
