@@ -1,4 +1,4 @@
-update=jeu. 06 juin 2013 20:15:26 CEST
+update=dim. 23 juin 2013 16:48:16 CEST
 version=1
 last_client=pcbnew
 [general]
@@ -54,10 +54,10 @@ LibName33=components/g5t-1-12vdc
 version=1
 LastNetListRead=8in8out.net
 UseCmpFile=1
-PadDrill="    1,099820"
-PadDrillOvalY="    1,099820"
-PadSizeH="    2,540000"
-PadSizeV="    2,540000"
+PadDrill="    1,016000"
+PadDrillOvalY="    1,016000"
+PadSizeH="    1,778000"
+PadSizeV="    1,778000"
 PcbTextSizeV="    2,032000"
 PcbTextSizeH="    1,524000"
 PcbTextThickness="    0,304800"
@@ -96,3 +96,4 @@ LibName22=components/ohw-logo
 LibName23=components/Relay_LKT
 LibName24=components/RJ45_basic
 LibName25=components/Relay_T771D10
+LibName26=components/Recom
