@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = mer. 19 juin 2013 22:20:54 CEST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = dim. 23 juin 2013 16:49:50 CEST
 
 BeginCmp
 TimeStamp = /5067601F;
@@ -361,7 +361,7 @@ BeginCmp
 TimeStamp = /516549E7;
 Reference = U1;
 ValeurCmp = 7805;
-IdModule  = TO220_7805_VERT;
+IdModule  = RECOM;
 EndCmp
 
 BeginCmp
