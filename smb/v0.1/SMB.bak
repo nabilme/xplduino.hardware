@@ -1787,4 +1787,6 @@ Text Notes 1550 3750 0    60   ~ 0
 Fault
 Wire Wire Line
 	1650 4950 1650 5000
+Text GLabel 9800 6050 0    25   Input ~ 0
+LED_FAULT
 $EndSCHEMATC

@@ -970,8 +970,6 @@ Text GLabel 9800 5950 0    25   BiDi ~ 0
 PA7
 Text GLabel 10600 6050 2    25   BiDi ~ 0
 PA4
-Text Notes 6850 2100 0    60   ~ 0
-Front Panel Connector
 Text Notes 9200 2100 0    98   ~ 20
 I2C SLOT
 Text Notes 9100 3250 0    98   ~ 20
@@ -1575,12 +1573,6 @@ Wire Wire Line
 	8350 5850 8400 5850
 Wire Wire Line
 	8350 5950 8400 5950
-Wire Notes Line
-	6700 1750 6800 1750
-Wire Notes Line
-	6800 1750 6800 2450
-Wire Notes Line
-	6800 2450 6700 2450
 Wire Wire Line
 	9200 2850 9200 2750
 Wire Notes Line
