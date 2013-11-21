@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = mer. 23 oct. 2013 20:53:13 CEST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = jeu. 21 nov. 2013 13:00:25 CET
 
 BeginCmp
 TimeStamp = /51727982;
@@ -137,119 +137,119 @@ BeginCmp
 TimeStamp = /522CC7FB;
 Reference = Q1;
 ValeurCmp = PNP;
-IdModule  = SOT23;
+IdModule  = SOT23EBC;
 EndCmp
 
 BeginCmp
 TimeStamp = /522CC8BC;
 Reference = Q2;
 ValeurCmp = PNP;
-IdModule  = SOT23;
+IdModule  = SOT23EBC;
 EndCmp
 
 BeginCmp
 TimeStamp = /522CC8E3;
 Reference = Q3;
 ValeurCmp = PNP;
-IdModule  = SOT23;
+IdModule  = SOT23EBC;
 EndCmp
 
 BeginCmp
 TimeStamp = /522CC914;
 Reference = Q4;
 ValeurCmp = PNP;
-IdModule  = SOT23;
+IdModule  = SOT23EBC;
 EndCmp
 
 BeginCmp
 TimeStamp = /522CC93C;
 Reference = Q5;
 ValeurCmp = PNP;
-IdModule  = SOT23;
+IdModule  = SOT23EBC;
 EndCmp
 
 BeginCmp
 TimeStamp = /522CC963;
 Reference = Q6;
 ValeurCmp = PNP;
-IdModule  = SOT23;
+IdModule  = SOT23EBC;
 EndCmp
 
 BeginCmp
 TimeStamp = /522CC98A;
 Reference = Q7;
 ValeurCmp = PNP;
-IdModule  = SOT23;
+IdModule  = SOT23EBC;
 EndCmp
 
 BeginCmp
 TimeStamp = /522CC9B1;
 Reference = Q8;
 ValeurCmp = PNP;
-IdModule  = SOT23;
+IdModule  = SOT23EBC;
 EndCmp
 
 BeginCmp
 TimeStamp = /522CCA12;
 Reference = Q9;
 ValeurCmp = NPN;
-IdModule  = SOT23;
+IdModule  = SOT23EBC;
 EndCmp
 
 BeginCmp
 TimeStamp = /522CCA40;
 Reference = Q10;
 ValeurCmp = NPN;
-IdModule  = SOT23;
+IdModule  = SOT23EBC;
 EndCmp
 
 BeginCmp
 TimeStamp = /522CCA67;
 Reference = Q11;
 ValeurCmp = NPN;
-IdModule  = SOT23;
+IdModule  = SOT23EBC;
 EndCmp
 
 BeginCmp
 TimeStamp = /522CCA8E;
 Reference = Q12;
 ValeurCmp = NPN;
-IdModule  = SOT23;
+IdModule  = SOT23EBC;
 EndCmp
 
 BeginCmp
 TimeStamp = /522CCAB5;
 Reference = Q13;
 ValeurCmp = NPN;
-IdModule  = SOT23;
+IdModule  = SOT23EBC;
 EndCmp
 
 BeginCmp
 TimeStamp = /522CCADC;
 Reference = Q14;
 ValeurCmp = NPN;
-IdModule  = SOT23;
+IdModule  = SOT23EBC;
 EndCmp
 
 BeginCmp
 TimeStamp = /522CCB03;
 Reference = Q15;
 ValeurCmp = NPN;
-IdModule  = SOT23;
+IdModule  = SOT23EBC;
 EndCmp
 
 BeginCmp
 TimeStamp = /522CCB2A;
 Reference = Q16;
 ValeurCmp = NPN;
-IdModule  = SOT23;
+IdModule  = SOT23EBC;
 EndCmp
 
 BeginCmp
 TimeStamp = /52681A92;
 Reference = Q19;
 ValeurCmp = NPN;
-IdModule  = SOT23;
+IdModule  = SOT23EBC;
 EndCmp
 
 BeginCmp
