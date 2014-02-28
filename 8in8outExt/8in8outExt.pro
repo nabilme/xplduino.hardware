@@ -1,13 +1,8 @@
-update=mer. 08 mai 2013 12:48:32 CEST
+update=dim. 08 sept. 2013 21:04:09 CEST
 version=1
-last_client=pcbnew
+last_client=cvpcb
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -69,23 +64,27 @@ DrawSegmentWidth="    0,200000"
 BoardOutlineThickness="    0,150000"
 ModuleOutlineThickness="    0,150000"
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
 LibName4=pin_array
 LibName5=divers
 LibName6=smd_capacitors
-LibName7=smd_dil
-LibName8=smd_transistors
-LibName9=libcms
-LibName10=display
-LibName11=led
-LibName12=dip_sockets
-LibName13=pga_sockets
-LibName14=valves
-LibName15=components/SOIC-18
-LibName16=components/CONN2x10
-LibName17=components/MicroSwitch
-LibName18=components/logo_xplduino
-LibName19=components/ohw-logo
+LibName7=smd_transistors
+LibName8=libcms
+LibName9=display
+LibName10=led
+LibName11=dip_sockets
+LibName12=pga_sockets
+LibName13=valves
+LibName14=components/SOIC-18
+LibName15=components/CONN2x10
+LibName16=components/MicroSwitch
+LibName17=components/logo_xplduino
+LibName18=components/ohw-logo
+LibDir=
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
