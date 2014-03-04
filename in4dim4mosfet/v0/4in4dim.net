@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/romain/xplduino/mercurial/xplduino.hardware/in4dim4mosfet/v0/4in4dim.sch)
-    (date "dim. 02 mars 2014 21:26:16 CET")
+    (date "lun. 03 mars 2014 21:59:08 CET")
     (tool "eeschema (2013-mar-13)-testing"))
   (components
     (comp (ref P110)
@@ -747,14 +747,14 @@
   (libraries
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
-    (library (logical opto)
-      (uri /usr/share/kicad/library/opto.lib))
     (library (logical transistors)
       (uri /usr/share/kicad/library/transistors.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
     (library (logical regul)
       (uri /usr/share/kicad/library/regul.lib))
+    (library (logical opto)
+      (uri /usr/share/kicad/library/opto.lib))
     (library (logical atmel)
       (uri /usr/share/kicad/library/atmel.lib))
     (library (logical max485)
