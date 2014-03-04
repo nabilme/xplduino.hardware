@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = mar. 04 mars 2014 18:52:54 CET
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = lun. 03 mars 2014 18:02:57 CET
 
 BeginCmp
 TimeStamp = /5067601F;
@@ -229,6 +229,13 @@ TimeStamp = /5310D4E9;
 Reference = F4;
 ValeurCmp = 1.6A retard;
 IdModule  = FUSEHOLDER_811;
+EndCmp
+
+BeginCmp
+TimeStamp = /5314B657;
+Reference = FAKE1;
+ValeurCmp = FAKE;
+IdModule  = FAKE;
 EndCmp
 
 BeginCmp
@@ -607,62 +614,6 @@ TimeStamp = /5310D4B4;
 Reference = R144;
 ValeurCmp = 100R;
 IdModule  = SM1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /53162006;
-Reference = RP1;
-ValeurCmp = 0R;
-IdModule  = R3;
-EndCmp
-
-BeginCmp
-TimeStamp = /53162029;
-Reference = RP2;
-ValeurCmp = 0R;
-IdModule  = R3;
-EndCmp
-
-BeginCmp
-TimeStamp = /5316202F;
-Reference = RP3;
-ValeurCmp = 0R;
-IdModule  = R3;
-EndCmp
-
-BeginCmp
-TimeStamp = /5316203F;
-Reference = RP4;
-ValeurCmp = 0R;
-IdModule  = R3;
-EndCmp
-
-BeginCmp
-TimeStamp = /53162045;
-Reference = RP5;
-ValeurCmp = 0R;
-IdModule  = R3;
-EndCmp
-
-BeginCmp
-TimeStamp = /5316204B;
-Reference = RP6;
-ValeurCmp = 0R;
-IdModule  = R3;
-EndCmp
-
-BeginCmp
-TimeStamp = /53162051;
-Reference = RP7;
-ValeurCmp = 0R;
-IdModule  = R3;
-EndCmp
-
-BeginCmp
-TimeStamp = /5316205C;
-Reference = RP8;
-ValeurCmp = 0R;
-IdModule  = R3;
 EndCmp
 
 BeginCmp
